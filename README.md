@@ -19,23 +19,17 @@ Actualizado: 14/01/2026
 
 Grupo: DIU2.Errores404.  Curso: 2025/26 
 
-Nombre del Proyecto: 
-
->>> Decida el nombre corto de su propuesta en la práctica 2 
+Nombre del Proyecto: La Qarmita - Cultura y Café
 
 Descripción: 
-
->>> Describa la idea de su producto en la práctica 2 
+Plataforma de gestión y promoción de experiencias culturales vinculadas al consumo de café de especialidad, basada en el caso de estudio de La Qarmita.
 
 Logotipo: 
-
->>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
+(Pendiente de diseño en P3)
 
 Miembros y nombre del equipo:
- * :bust_in_silhouette:  AA     :octocat:     
- * :bust_in_silhouette:  BB     :octocat:
-
->>> Los equipos son de 2 personas. Identifícaros con el nombre del Grupo y los enlaces a los perfiles de GitHub de cada integrante
+ * :bust_in_silhouette:  [Nombre Miembro 1]     :octocat: [User1]
+ * :bust_in_silhouette:  [Nombre Miembro 2]     :octocat: [User2]
 
 ----- 
 
@@ -58,38 +52,92 @@ Miembros y nombre del equipo:
 ![Método UX](img/Competitive.png) 
 -----
 
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
+**Briefing:**
+La Qarmita es un espacio cultural híbrido en el corazón de Granada que fusiona los conceptos de cafetería de especialidad, librería y galería de arte. Su propuesta de valor se centra en ofrecer una experiencia "slow cafe", donde el cliente no solo consume café de autor y repostería artesanal, sino que se sumerge en un ambiente literario y artístico, con eventos como presentaciones de libros y exposiciones locales. Su público objetivo abarca desde estudiantes universitarios que buscan un lugar tranquilo para trabajar, hasta amantes de la cultura y el arte que valoran los espacios independientes y comunitarios.
+
+A pesar de su fuerte identidad física y comunitaria, su presencia digital presenta retos significativos. La coexistencia de un blog antiguo (Blogspot) con una web más moderna pero limitada refleja una fragmentación en la experiencia del usuario online. No disponen de sistemas integrados de reserva, venta de libros e-commerce o una agenda de eventos interactiva clara. Esto penaliza la usabilidad y la conversión de usuarios que buscan interactuar con el espacio antes de visitarlo físicamente. Nuestra estrategia se centrará en analizar cómo unificar esta experiencia y potenciar la visibilidad de su oferta cultural única.
 
 
 ### 1.b Competitive Analysis
 ![Método UX](img/Competitive.png) 
 -----
 
->>> Describe brevemente características de las aplicaciones que tiene asignadas tu grupo. Decidete por una y explica por qué se ha seleccionado. Borra esta línea cuando lo tengas. 
+Para el análisis competitivo, hemos comparado **La Qarmita** con otras dos propuestas del sector en Granada: **Despiertoo** y **Picnic Coffee**.
+
+| Característica | La Qarmita | Despiertoo | Picnic Coffee |
+| :--- | :--- | :--- | :--- |
+| **Enfoque principal** | Libros + Café + Arte | Café de Especialidad | Brunch + Café |
+| **Diseño Web** | Obsoleto (Blogspot) | Moderno / Minimalista | Muy visual / Instagram |
+| **Agenda de eventos** | Sí (difícil de leer) | No destacada | No destacada |
+| **Tienda Online** | No | Sí (granos de café) | No |
+| **Uso de imágenes** | Media (caseras) | Alta (profesionales) | Alta (redes sociales) |
+
+**Justificación:**
+Hemos seleccionado **La Qarmita** como caso principal porque, a pesar de tener una oferta cultural riquísima y única en la ciudad (galería de arte y librería propia), su plataforma digital es la que presenta mayores retos de usabilidad. El uso de una plantilla de Blogspot limita enormemente la navegación móvil y la organización de contenidos, lo que supone una oportunidad perfecta para aplicar mejoras de UX y diseñar una interfaz que haga justicia a su espacio físico.
 
 
 ### 1.c Personas
 ![Método UX](img/Persona.png) 
 -----
 
->>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
+Hemos diseñado dos perfiles de usuario que representan los segmentos clave de La Qarmita: el estudiante universitario que busca un espacio de estudio/ocio y la profesional del sector cultural interesada en el espacio artístico.
+
+#### Persona 1: Marcos Ruiz
+![Marcos Ruiz](./P1/Persona1.png)
+
+*   **Edad:** 21 años.
+*   **Origen:** Granada (Barrio de la Chana).
+*   **Ocupación:** Estudiante de 3º de Historia del Arte en la UGR.
+*   **Perfil:** Usuario digital nativo, muy activo en redes sociales pero con baja tolerancia a interfaces lentas o confusas.
+*   **Qué busca:** Un "refugio" urbano donde la estética del lugar le ayude a concentrarse. Valora que el café sea de especialidad y que el hilo musical sea suave.
+*   **Le gusta:** El diseño minimalista, las librerías con olor a papel viejo, descubrir artistas locales en Instagram y que los locales tengan muchas plantas.
+*   **Le molesta:** La tipografía Comic Sans, los sitios que solo aceptan efectivo, el ruido de la gente hablando por el móvil y las webs que parecen de los años 2000.
+*   **Dolores (Pains):** Su mayor dolor es la **pérdida de tiempo**; entrar en una web para ver si un local está abierto y que la información esté desactualizada le pone de muy mal humor.
+*   **Dificultades/Limitaciones:** Padece **miopía** y usa gafas graduadas de forma constante; le frustran las fuentes pequeñas o con poco contraste. Además, tiene **hipersensibilidad sonora**, por lo que huye de locales con eco o mucho ruido de maquinaria.
+*   **Contexto:** Vive en un piso compartido y busca cafeterías con "encanto" para estudiar fuera de la facultad.
+*   **Frustraciones:** Odia los sitios ruidosos y las webs que no cargan bien el menú de precios en el móvil.
+*   **Objetivo:** Encontrar un lugar tranquilo que combine su pasión por el arte con un buen café de especialidad.
+
+#### Persona 2: Elena Valero
+![Elena Valero](./P1/Persona2.png)
+
+*   **Edad:** 42 años.
+*   **Origen:** Granada (Barrio del Realejo).
+*   **Ocupación:** Gestora cultural autónoma y madre de un niño de 4 años.
+*   **Perfil:** Experta en el sector artístico granadino, valora la autenticidad y el trato cercano sobre las grandes cadenas.
+*   **Qué busca:** Espacios que funcionen como puente entre artistas locales y público. Busca información precisa sobre fechas de exposiciones y horarios de inauguración.
+*   **Le gusta:** La gestión cultural transparente, el café de comercio justo, los atardeceres en el Albaicín y los eventos culturales que son "pet-friendly" (aunque no tiene perro, le gusta el ambiente).
+*   **Le molesta:** La falta de accesibilidad, los formularios de contacto que nunca responden, que no se cite correctamente a los autores en las exposiciones y las webs que no cargan bien en tablets.
+*   **Dolores (Pains):** La **incertidumbre**. Si planea una reunión cultural y no sabe si el local estará lleno o si habrá un evento que impida hablar, se siente estresada. Necesita previsibilidad.
+*   **Dificultades/Limitaciones:** Empieza a notar los efectos de la **vista cansada (presbicia)**, por lo que necesita forzar la vista en pantallas de móvil con menús mal diseñados (como el Blogspot de La Qarmita). Además, suele ir con el carrito del niño, por lo que busca información sobre **accesibilidad** y espacio en el local.
+*   **Contexto:** Trabaja desde casa y busca espacios en el centro para tener reuniones con artistas y clientes en un entorno creativo.
+*   **Frustraciones:** Le molesta la falta de información actualizada sobre eventos y la dificultad para contactar rápidamente por la web.
+*   **Objetivo:** Identificar locales con una agenda cultural activa para proponer colaboraciones y exposiciones.
 
 
 ### 1.d User Journey Map
 ![Método UX](img/JourneyMap.png) 
 ----
 
->>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
+Hemos seleccionado dos situaciones habituales que reflejan los problemas de usabilidad detectados en la presencia digital de La Qarmita.
+
+#### Business Case 1: Marcos buscando un refugio para el estudio
+Marcos quiere salir de la biblioteca saturada y busca una cafetería tranquila. Encuentra el blog de La Qarmita desde su móvil mientras camina. La experiencia es frustrante: el blog no es responsive, tiene que hacer zoom constantemente para leer el menú de tostadas y no encuentra confirmación de si hay wifi disponible. Aunque la estética del local le atrae por las fotos, la web le genera dudas sobre si será un sitio cómodo para trabajar con su portátil.
+
+#### Business Case 2: Elena organizando una reunión cultural
+Elena necesita un espacio para reunirse con un fotógrafo local y ver si pueden exponer su obra. Entra en la web buscando la "Ageda Cultural" o la sección de la "Galería Qarmitera". Se encuentra con que la información útil está mezclada con posts antiguos y no hay un calendario de disponibilidad o un formulario de contacto directo para propuestas artísticas. Acaba frustrada teniendo que recurrir a buscar el teléfono en redes sociales externas para poder hablar con alguien.
 
 
 ### 1.e Usability Review
 ![Método UX](img/usabilityReview.png) 
 ----
 
->>>  El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
->>> - Enlace al documento:  (xls/pdf) 
->>> - URL y Valoración numérica obtenida: 
->>> - Comentario sobre la revisión:  (puntos fuertes y débiles detectados)
+El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
+- **Enlace al documento:** [Usability-review-template.xlsx](./P1/Usability-review-template.xlsx) 
+- **URL analizada:** https://laqarmita.blogspot.com/
+- **Valoración numérica:** 45/100 (Rango: Pobre)
+- **Comentario sobre la revisión:** 
+La principal debilidad de La Qarmita es su obsolescencia técnica. Al basarse en una plantilla de Blogspot, no cumple con los estándares modernos de **diseño responsive** (imprescindible hoy en día). La arquitectura de la información es confusa; los eventos culturales, que son su mayor valor, se pierden en un feed cronológico difícil de navegar. Como puntos fuertes, destaca la **autenticidad** de su contenido y la claridad en la identidad de marca, pero falla en la conversión y en facilitar tareas básicas como consultar el menú o contactar para reservas.
 
 <br>
 
