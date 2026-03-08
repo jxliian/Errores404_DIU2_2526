@@ -29,8 +29,8 @@ Este **User Research Plan** define la estrategia para evaluar la experiencia de 
 
 #### 3. Perfil de los Participantes (The "Who")
 
-- **Perfil 1: Estudiante Universitario (Marcos Ruiz, 21 años, Granada).** Usuario digital nativo que busca un "refugio" para estudiar. Padece **miopía** e **hipersensibilidad sonora**. Le frustran las webs obsoletas y la falta de información actualizada sobre horarios (su mayor **pain**).
-- **Perfil 2: Amante de la Cultura (Elena Valero, 42 años, Granada).** Gestora cultural con **presbicia**. Busca previsibilidad y agendas claras. Su principal **pain** es la incertidumbre al organizar eventos o reuniones; odia la falta de accesibilidad y los formularios que no funcionan.
+- **Perfil 1: Estudiante Universitario (Marcos Ruiz, 21 años, Granada).** Usuario digital nativo que busca un lugar para estudiar o merendar con amigos. Padece **miopía** (usa gafas) y valora la legibilidad, la rapidez de carga y la información móvil clara.
+- **Perfil 2: Amante de la Cultura (Elena Valero, 42 años, Granada).** Gestora cultural con **presbicia** (necesita gafas de lectura). Interesada en presentaciones de libros y arte. Valora la estética, la claridad en la agenda de eventos, la **accesibilidad** del local y el contacto directo.
 
 #### 4. Guion y Tareas (The "What")
 

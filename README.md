@@ -62,18 +62,22 @@ A pesar de su fuerte identidad física y comunitaria, su presencia digital prese
 ![Método UX](img/Competitive.png) 
 -----
 
-Para el análisis competitivo, hemos comparado **La Qarmita** con otras dos propuestas del sector en Granada: **Despiertoo** y **Picnic Coffee**.
+Para el análisis competitivo, hemos comparado **La Qarmita** con otras dos propuestas destacadas de café de especialidad en Granada: **Despiertoo** (Tostadores locales) y **Noat Coffee** (Referente en Plaza de los Girones).
 
-| Característica | La Qarmita | Despiertoo | Picnic Coffee |
-| :--- | :--- | :--- | :--- |
-| **Enfoque principal** | Libros + Café + Arte | Café de Especialidad | Brunch + Café |
-| **Diseño Web** | Obsoleto (Blogspot) | Moderno / Minimalista | Muy visual / Instagram |
-| **Agenda de eventos** | Sí (difícil de leer) | No destacada | No destacada |
-| **Tienda Online** | No | Sí (granos de café) | No |
-| **Uso de imágenes** | Media (caseras) | Alta (profesionales) | Alta (redes sociales) |
+| Categoría | Características | La Qarmita | Despiertoo | Noat Coffee |
+| :--- | :--- | :---: | :---: | :---: |
+| **Business Model** | Precio / Suscripción | Bajo-Medio / Eventos | Medio-Alto / Mayorista | Alto / Especialidad |
+| | | Fusión café y cultura | Suscripción café grano | Brunch y calidad alta |
+| **Technological Issues** | 1º Presencia Digital | Obsoleta (Blogspot) | Moderna / Shopify | Instagram-First |
+| | 2º Adaptabilidad | Muy baja (No responsive) | Alta (Mobile-friendly) | Media (External tools) |
+| **Functionality & Usability** | 1º Reservas/Eventos | Manual / Muy confuso | Directo (Tienda online) | No disponible |
+| | 2º Facilidad de uso | Baja (Ruido visual) | Alta (Interfaz limpia) | Alta (Social media) |
+| **Others** | **Strength** | Identidad y comunidad | Calidad de tueste | Estética y ubicación |
+| | **Weakness** | Infraestructura técnica | Suscripción limitada | Dependencia de terceros |
+| | **Conclusions** | Requiere renovación total | Referente en e-commerce | Éxito sin web propia |
 
 **Justificación:**
-Hemos seleccionado **La Qarmita** como caso principal porque, a pesar de tener una oferta cultural riquísima y única en la ciudad (galería de arte y librería propia), su plataforma digital es la que presenta mayores retos de usabilidad. El uso de una plantilla de Blogspot limita enormemente la navegación móvil y la organización de contenidos, lo que supone una oportunidad perfecta para aplicar mejoras de UX y diseñar una interfaz que haga justicia a su espacio físico.
+Hemos seleccionado **La Qarmita** como caso principal porque, a pesar de tener la oferta cultural más rica, su plataforma digital es la que presenta mayores retos. Despiertoo representa el estándar moderno de tienda online de café en la ciudad, mientras que Noat Coffee demuestra que un buen producto y ubicación pueden sostenerse con una presencia digital minimalista pero efectiva, remarcando lo que La Qarmita pierde por su falta de usabilidad técnica.
 
 
 ### 1.c Personas
@@ -82,37 +86,15 @@ Hemos seleccionado **La Qarmita** como caso principal porque, a pesar de tener u
 
 Hemos diseñado dos perfiles de usuario que representan los segmentos clave de La Qarmita: el estudiante universitario que busca un espacio de estudio/ocio y la profesional del sector cultural interesada en el espacio artístico.
 
-#### Persona 1: Marcos Ruiz
-![Marcos Ruiz](./P1/Persona1.png)
+#### Persona 1: Natalio Genil
+![Natalio Genil](./P1/pngs/Persona1.png)
 
-*   **Edad:** 21 años.
-*   **Origen:** Granada (Barrio de la Chana).
-*   **Ocupación:** Estudiante de 3º de Historia del Arte en la UGR.
-*   **Perfil:** Usuario digital nativo, muy activo en redes sociales pero con baja tolerancia a interfaces lentas o confusas.
-*   **Qué busca:** Un "refugio" urbano donde la estética del lugar le ayude a concentrarse. Valora que el café sea de especialidad y que el hilo musical sea suave.
-*   **Le gusta:** El diseño minimalista, las librerías con olor a papel viejo, descubrir artistas locales en Instagram y que los locales tengan muchas plantas.
-*   **Le molesta:** La tipografía Comic Sans, los sitios que solo aceptan efectivo, el ruido de la gente hablando por el móvil y las webs que parecen de los años 2000.
-*   **Dolores (Pains):** Su mayor dolor es la **pérdida de tiempo**; entrar en una web para ver si un local está abierto y que la información esté desactualizada le pone de muy mal humor.
-*   **Dificultades/Limitaciones:** Padece **miopía** y usa gafas graduadas de forma constante; le frustran las fuentes pequeñas o con poco contraste. Además, tiene **hipersensibilidad sonora**, por lo que huye de locales con eco o mucho ruido de maquinaria.
-*   **Contexto:** Vive en un piso compartido y busca cafeterías con "encanto" para estudiar fuera de la facultad.
-*   **Frustraciones:** Odia los sitios ruidosos y las webs que no cargan bien el menú de precios en el móvil.
-*   **Objetivo:** Encontrar un lugar tranquilo que combine su pasión por el arte con un buen café de especialidad.
+Natalio es un estudiante de Ingeniería Informática de 26 años que busca un "refugio" urbano tranquilo y con buena estética para concentrarse en sus estudios, valorando el café de calidad y la ausencia de ruidos molestos.
 
 #### Persona 2: Elena Valero
-![Elena Valero](./P1/Persona2.png)
+![Elena Valero](./P1/pngs/Persona2.png)
 
-*   **Edad:** 42 años.
-*   **Origen:** Granada (Barrio del Realejo).
-*   **Ocupación:** Gestora cultural autónoma y madre de un niño de 4 años.
-*   **Perfil:** Experta en el sector artístico granadino, valora la autenticidad y el trato cercano sobre las grandes cadenas.
-*   **Qué busca:** Espacios que funcionen como puente entre artistas locales y público. Busca información precisa sobre fechas de exposiciones y horarios de inauguración.
-*   **Le gusta:** La gestión cultural transparente, el café de comercio justo, los atardeceres en el Albaicín y los eventos culturales que son "pet-friendly" (aunque no tiene perro, le gusta el ambiente).
-*   **Le molesta:** La falta de accesibilidad, los formularios de contacto que nunca responden, que no se cite correctamente a los autores en las exposiciones y las webs que no cargan bien en tablets.
-*   **Dolores (Pains):** La **incertidumbre**. Si planea una reunión cultural y no sabe si el local estará lleno o si habrá un evento que impida hablar, se siente estresada. Necesita previsibilidad.
-*   **Dificultades/Limitaciones:** Empieza a notar los efectos de la **vista cansada (presbicia)**, por lo que necesita forzar la vista en pantallas de móvil con menús mal diseñados (como el Blogspot de La Qarmita). Además, suele ir con el carrito del niño, por lo que busca información sobre **accesibilidad** y espacio en el local.
-*   **Contexto:** Trabaja desde casa y busca espacios en el centro para tener reuniones con artistas y clientes en un entorno creativo.
-*   **Frustraciones:** Le molesta la falta de información actualizada sobre eventos y la dificultad para contactar rápidamente por la web.
-*   **Objetivo:** Identificar locales con una agenda cultural activa para proponer colaboraciones y exposiciones.
+Elena es una gestora cultural de 48 años que busca espacios auténticos para reuniones y colaboraciones artísticas, interesándose por la accesibilidad del local y la claridad en la agenda de eventos culturales.
 
 
 ### 1.d User Journey Map
@@ -121,11 +103,15 @@ Hemos diseñado dos perfiles de usuario que representan los segmentos clave de L
 
 Hemos seleccionado dos situaciones habituales que reflejan los problemas de usabilidad detectados en la presencia digital de La Qarmita.
 
-#### Business Case 1: Marcos buscando un refugio para el estudio
-Marcos quiere salir de la biblioteca saturada y busca una cafetería tranquila. Encuentra el blog de La Qarmita desde su móvil mientras camina. La experiencia es frustrante: el blog no es responsive, tiene que hacer zoom constantemente para leer el menú de tostadas y no encuentra confirmación de si hay wifi disponible. Aunque la estética del local le atrae por las fotos, la web le genera dudas sobre si será un sitio cómodo para trabajar con su portátil.
+#### Business Case 1: Natalio buscando un refugio para el estudio
+![User Journey Map 1](./P1/pngs/JourneyMap1.png)
+
+Este mapa describe la experiencia de Natalio al intentar encontrar información sobre el local desde su móvil, destacando las frustraciones causadas por una web no adaptada a dispositivos móviles.
 
 #### Business Case 2: Elena organizando una reunión cultural
-Elena necesita un espacio para reunirse con un fotógrafo local y ver si pueden exponer su obra. Entra en la web buscando la "Ageda Cultural" o la sección de la "Galería Qarmitera". Se encuentra con que la información útil está mezclada con posts antiguos y no hay un calendario de disponibilidad o un formulario de contacto directo para propuestas artísticas. Acaba frustrada teniendo que recurrir a buscar el teléfono en redes sociales externas para poder hablar con alguien.
+![User Journey Map 2](./P1/pngs/JourneyMap2.png)
+
+Elena experimenta dificultades al intentar coordinar una reunión y proponer una exposición, enfrentándose a una arquitectura de información confusa que mezcla contenido irrelevante con la agenda cultural.
 
 
 ### 1.e Usability Review
