@@ -45,7 +45,7 @@ Miembros y nombre del equipo:
 
 ## Paso 1. UX User & Desk Research & Analisis 
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
+
 
 
 ### 1.a User Reseach Plan
@@ -118,7 +118,6 @@ Elena experimenta dificultades al intentar coordinar una reunión y proponer una
 ![Método UX](img/usabilityReview.png) 
 ----
 
-El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
 - **Enlace al documento:** [Usability-review-template.xlsx](./P1/Usability-review-template.xlsx) 
 - **URL analizada:** https://laqarmita.blogspot.com/
 - **Valoración numérica:** 45/100 (Rango: Pobre)
@@ -129,7 +128,7 @@ La principal debilidad de La Qarmita es su obsolescencia técnica. Al basarse en
 
 ## Paso 2. UX Design  
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
+
 
 ### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
 ![Método UX](img/feedback-capture-grid.png) 
@@ -184,7 +183,7 @@ Término | Significado
 
 ## Paso 3. Mi UX-Case Study (diseño)
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
+
 
 
 ### 3.a Moodboard

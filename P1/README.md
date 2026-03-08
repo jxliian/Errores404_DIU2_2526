@@ -12,7 +12,7 @@ En esta primera práctica, hemos desarrollado la fase de investigación y análi
 
 Este trabajo ha sido realizado de forma colaborativa por **Julian Carrion Tovar** y **Miguel Angel Luque Gomez**. 
 
-Nuestra experiencia durante esta primera fase ha sido muy positiva y enriquecedora. Hemos trabajado juntos para identificar los puntos de dolor clave en la presencia digital de La Qarmita, combinando nuestras perspectivas para crear perfiles de usuario realistas y mapas de viaje que reflejen los problemas reales de usabilidad. Julian se centró en la investigación de mercado y la definición de las personas, mientras que Miguel Angel aportó su visión técnica para el análisis competitivo y la revisión de usabilidad. La comunicación constante nos ha permitido unificar criterios y proponer una base sólida para las siguientes fases del diseño UX.
+Nuestra experiencia durante esta primera fase ha sido muy positiva y enriquecedora. Hemos trabajado juntos para identificar los puntos de dolor clave en la presencia digital de La Qarmita, combinando nuestras perspectivas para crear perfiles de usuario realistas y mapas de viaje que reflejen los problemas reales de usabilidad. Miguel Angel se encargó del desk research inicial, mientras que Julian Carrion Tovar desarrolló las personas y sus respectivos journey maps. La revisión de usabilidad fue una tarea compartida entre ambos. Esta colaboración nos ha permitido unificar criterios y proponer una base sólida para las siguientes fases del diseño UX.
 
 ## Valoración Final
 
