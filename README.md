@@ -28,8 +28,8 @@ Logotipo:
 (Pendiente de diseño en P3)
 
 Miembros y nombre del equipo:
- * :bust_in_silhouette:  [Nombre Miembro 1]     :octocat: [User1]
- * :bust_in_silhouette:  [Nombre Miembro 2]     :octocat: [User2]
+ * :bust_in_silhouette:  Julian Carrion Tovar     :octocat: jxliian
+ * :bust_in_silhouette:  Miguel Angel Luque Gomez     :octocat: mangel
 
 ----- 
 
