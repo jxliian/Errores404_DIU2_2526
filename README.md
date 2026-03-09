@@ -105,7 +105,7 @@ Para el análisis competitivo, hemos comparado **La Qarmita** con otras dos prop
 
 ![Competitive Analysis](./P1/pngs/CompetitiveAnalysis.png)
 
-
+<!-- 
 | Categoría | Características | La Qarmita | Despiertoo | Noat Coffee |
 | :--- | :--- | :---: | :---: | :---: |
 | **Business Model** | Precio / Suscripción | Bajo-Medio / Eventos | Medio-Alto / Mayorista | Alto / Especialidad |
@@ -116,7 +116,7 @@ Para el análisis competitivo, hemos comparado **La Qarmita** con otras dos prop
 | | 2º Facilidad de uso | Baja (Ruido visual) | Alta (Interfaz limpia) | Alta (Social media) |
 | **Others** | **Strength** | Identidad y comunidad | Calidad de tueste | Estética y ubicación |
 | | **Weakness** | Infraestructura técnica | Suscripción limitada | Dependencia de terceros |
-| | **Conclusions** | Requiere renovación total | Referente en e-commerce | Éxito sin web propia |
+| | **Conclusions** | Requiere renovación total | Referente en e-commerce | Éxito sin web propia | -->
 
 
 Hemos seleccionado **La Qarmita** como caso principal porque, a pesar de tener la oferta cultural más rica, su plataforma digital es la que presenta mayores retos. Despiertoo representa el estándar moderno de tienda online de café en la ciudad, mientras que Noat Coffee demuestra que un buen producto y ubicación pueden sostenerse con una presencia digital minimalista pero efectiva, remarcando lo que La Qarmita pierde por su falta de usabilidad técnica.
