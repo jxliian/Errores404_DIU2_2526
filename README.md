@@ -175,11 +175,11 @@ Elena experimenta dificultades al intentar coordinar una reunión y proponer una
 ![Método UX](img/usabilityReview.png) 
 ----
 
-- **Enlace al documento:** [Usability-review-template.xlsx](./P1/Usability-review-template.xlsx) 
+- **Enlace al documento:** [Usability-review-PDF](./P1/Usability-review-template_hecho.pdf) 
 - **URL analizada:** https://laqarmita.blogspot.com/
 - **Valoración numérica:** 45/100 (Rango: Pobre)
 - **Comentario sobre la revisión:** 
-La principal debilidad de La Qarmita es su obsolescencia técnica. Al basarse en una plantilla de Blogspot, no cumple con los estándares modernos de **diseño responsive**. A continuación se detallan los hallazgos principales:
+La principal debilidad de La Qarmita es su obsolescencia técnica. Al basarse en una plantilla de Blogspot, no cumple con los estándares modernos. A continuación se detallan los hallazgos principales:
 
 #### Puntos Fuertes (Fortalezas)
 *   **Propuesta de Valor Clara:** Identificación inmediata del concepto híbrido (Café + Libros + Cultura) al acceder al sitio.
@@ -190,7 +190,7 @@ La principal debilidad de La Qarmita es su obsolescencia técnica. Al basarse en
 *   **Nula Adaptabilidad (Responsive):** Experiencia de usuario fracturada en móviles; elementos superpuestos y navegación muy difícil.
 *   **Arquitectura de Información Lineal:** La estructura de blog entierra información crítica (menú, precios, contacto) bajo posts cronológicos.
 *   **Inaccesibilidad de la Agenda Cultural:** Falta de un calendario interactivo; los eventos son difíciles de localizar y consultar por fechas futuras.
-*   **Baja Conversión (Falta de CTAs):** Ausencia de llamadas a la acción directas para reservas, compra de libros o suscripción a eventos.
+*   **Baja Conversión:** Ausencia de llamadas a la acción directas para reservas, compra de libros o suscripción a eventos.
 *   **Obsolescencia Técnica:** Limitación en la velocidad de carga e interactividad debido a la infraestructura técnica anticuada.
 
 <br>
