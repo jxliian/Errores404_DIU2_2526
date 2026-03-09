@@ -95,7 +95,7 @@ Se pretende que los usuarios sean capaces de realizar las siguientes tareas:
 - Localizar la lista de precios de los desayunos o alguna especialidad de café concreta.
 - Dejar una reseña en la página reflejando su experiencia con el servicio.
 
-
+![Research Plan](./P1/pngs/ResearchPlan.png)
 
 ### 1.b Competitive Analysis
 ![Método UX](img/Competitive.png) 
