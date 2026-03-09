@@ -177,7 +177,7 @@ Elena experimenta dificultades al intentar coordinar una reunión y proponer una
 
 - **Enlace al documento:** [Usability-review-PDF](./P1/Usability-review-template_hecho.pdf) 
 - **URL analizada:** https://laqarmita.blogspot.com/
-- **Valoración numérica:** 45/100 (Rango: Pobre)
+- **Valoración numérica:** 46/100 (Rango: Pobre)
 - **Comentario sobre la revisión:** 
 La principal debilidad de La Qarmita es su obsolescencia técnica. Al basarse en una plantilla de Blogspot, no cumple con los estándares modernos. A continuación se detallan los hallazgos principales:
 
