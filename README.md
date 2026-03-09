@@ -103,7 +103,7 @@ Se pretende que los usuarios sean capaces de realizar las siguientes tareas:
 
 Para el análisis competitivo, hemos comparado **La Qarmita** con otras dos propuestas destacadas de café de especialidad en Granada: **Despiertoo** (Tostadores locales) y **Noat Coffee** (Referente en Plaza de los Girones).
 
-![Competitive Analysis](./P1/pngs/Competitive%20Analysis.png)
+![Competitive Analysis](./P1/pngs/CompetitiveAnalysis.png)
 
 
 | Categoría | Características | La Qarmita | Despiertoo | Noat Coffee |
