@@ -115,8 +115,22 @@ Para el análisis competitivo, hemos comparado **La Qarmita** con otras dos prop
 | | **Weakness** | Infraestructura técnica | Suscripción limitada | Dependencia de terceros |
 | | **Conclusions** | Requiere renovación total | Referente en e-commerce | Éxito sin web propia |
 
-**Justificación:**
+
 Hemos seleccionado **La Qarmita** como caso principal porque, a pesar de tener la oferta cultural más rica, su plataforma digital es la que presenta mayores retos. Despiertoo representa el estándar moderno de tienda online de café en la ciudad, mientras que Noat Coffee demuestra que un buen producto y ubicación pueden sostenerse con una presencia digital minimalista pero efectiva, remarcando lo que La Qarmita pierde por su falta de usabilidad técnica.
+
+**Posicionamiento e Identidad**
+La Qarmita compite con una propuesta de valor única basada en la "Fusión café y cultura" y un modelo de precio "Bajo-Medio". Su mayor fortaleza radica en la consolidación de su "Identidad y comunidad". Sus competidores, en cambio, apuntan a un ticket superior (Medio-Alto y Alto), enfocándose en la "Suscripción café grano" o en el "Brunch y calidad alta".
+
+**Presencia y Distribución Digital**
+El mayor contraste se encuentra en los canales de distribución de contenido. La gran debilidad de La Qarmita es su infraestructura técnica, al contar con una presencia digital obsoleta (basada en un blogspot) y una adaptabilidad muy baja. En cambio, Despiertoo domina este aspecto con una plataforma Moderna (Shopify) y una alta adaptabilidad móvil. Por su parte, Noat Coffee demuestra que es posible tener éxito externalizando su contenido al centrar su presencia en redes sociales de gran alcance como Instagram.
+
+**Funcionalidad y Usabilidad (UX)**
+La gestión del contenido interactivo en La Qarmita es deficiente; su sistema de reservas es manual y confuso, además presenta una escasa facilidad de uso debido al ruido visual(gran cantidad de imágenes, escaso orden). Despiertoo marca el estándar del sector con gestión directa (posee tienda online) y una interfaz limpia. Noat Coffee, aunque no dispone de reservas, mantiene una alta usabilidad a través del uso de redes sociales.
+
+**Conclusiones y Oportunidades**
+La principal brecha competitiva de La Qarmita es tecnológica. Como conclusión, el negocio requiere renovación total en este aspecto ya que el servicio del establecimiento es uno de sus puntos más fuertes. Para potenciar su fuerte comunidad, la estrategia debe enfocarse en migrar hacia una plataforma web propia y "responsive" que elimine la fricción en las interacciones y ofrezca una experiencia de usuario limpia, a la altura del estándar marcado por Despiertoo y de las expectativas de las nuevas generaciones.
+
+
 
 
 ### 1.c Personas
