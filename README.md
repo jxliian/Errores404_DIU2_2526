@@ -193,6 +193,13 @@ La principal debilidad de La Qarmita es su obsolescencia técnica. Al basarse en
 *   **Baja Conversión:** Ausencia de llamadas a la acción directas para reservas, compra de libros o suscripción a eventos.
 *   **Obsolescencia Técnica:** Limitación en la velocidad de carga e interactividad debido a la infraestructura técnica anticuada.
 
+### 1.f Briefing
+
+La Qarmita ofrece una experiencia única y valiosa en el mundo real, fusionando café de especialidad, libros y arte. Sin embargo, su escaparate digital principal (un Blogspot obsoleto) no refleja esta calidad y supone una barrera de entrada. Para el usuario moderno, la web resulta confusa, poco inmersiva, difícil de navegar en dispositivos móviles y no visibiliza adecuadamente la oferta dinámica del local, como su agenda de eventos, exposiciones y talleres. La web presenta una arquitectura de información que entierra realmente la información crítica de la web, además se ve limitada por la velocidad de carga e interactividad de la infraestructura técnica anticuada.
+
+Existe una discrepancia enorme entre el "producto" físico (excelente) y el "producto" digital (deficiente). Rediseñando integralmente la plataforma online, tenemos la oportunidad no solo de arreglar la usabilidad básica, sino de crear una herramienta que potencie el ecosistema de La Qarmita. Al construir un entorno web moderno, dinámico y "Mobile-First", podemos transformar a visitantes curiosos en clientes habituales y promover la participación activa en su oferta cultural.
+
+
 <br>
 
 ## Paso 2. UX Design  
