@@ -225,8 +225,9 @@ La principal carencia actual es la infraestructura técnica y la fragmentación 
 ![Método UX](img/ScopeCanvas.png)
 ----
 
->>> Propuesta de valor, pero ahora en vez de un texto es un ScopeCanvas que has subido a P2/ y enlazado desde aqui. Tambien vale una imagen miniatura del recurso.
->>> No olvides que tu propuesta ya tiene un nombre corto y puedes actualizar la cabecera de este archivo
+En este ScopeCanvas detallamos la propuesta de valor para **La Qarmita**, centrada en unificar su experiencia física y digital, además del establecimiento de otras medidas como el "sistema de recompensas". Definimos los propósitos y métricas de nuestro proyecto, alineando las necesidades de los usuarios (como estudiantes y gestores culturales) con los objetivos de negocio.
+
+![ScopeCanvas](./P2/Entrega/scopecanvas.png)
 
 
 
