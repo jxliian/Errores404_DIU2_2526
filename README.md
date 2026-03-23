@@ -20,10 +20,10 @@ Actualizado: 14/01/2026
 
 Grupo: DIU2.Errores404.  Curso: 2025/26 
 
-Nombre del Proyecto: La Qarmita - Cultura y Café
+Nombre del Proyecto: La Qarmita - Cultura y Café - El cambio de paradigma
 
 Descripción: 
-Plataforma de gestión y promoción de experiencias culturales vinculadas al consumo de café de especialidad, basada en el caso de estudio de La Qarmita.
+Plataforma de gestión y promoción de experiencias culturales vinculadas al consumo de café de especialidad, basada en el caso de estudio de La Qarmita. Se busca un cambio de paradigma no solo en la web sino en la forma de fidelizar a los nuevos clientes.
 
 Logotipo: 
 (Pendiente de diseño en P3)
