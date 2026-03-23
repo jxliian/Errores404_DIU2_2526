@@ -206,20 +206,19 @@ Existe una discrepancia enorme entre el "producto" físico (excelente) y el "pro
 
 
 
-### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
-![Método UX](img/feedback-capture-grid.png) 
+### 2.a Reframing / IDEACION: Empathy Map 
 ----
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior. De qué carece la competencia?? Tu diagrama puede ser una figura subida a la carpeta P2/
+A partir de la experiencia adquirida en el análisis de competidores y el journey de nuestros usuarios, hemos sintetizado los hallazgos empleando **Mapas de Empatía** para nuestras dos Personas principales. Esta herramienta nos ayuda a entender mejor qué dicen, piensan, hacen y sienten, permitiendo identificar puntos clave (*pains & gains*) para nuestra nueva propuesta de valor. La propuesta se enfoca en resolver las carencias tecnológicas de la competencia directa solucionando el ruido visual y mejorando los canales de información.
 
+#### Mapa de Empatía - Natalio Genil
+![Empathy Map Natalio](./P2/Entrega/NatalioGenil_EMpathymap.png)
 
- Interesante | Críticas     
-| ------------- | -------
-  Preguntas | Nuevas ideas
-  
-    
->>> Explica el Problema y plantea una hipótesis. Es decir, explica aquí qué 
->>> se plantea como "propuesta de valor" para un nuevo diseño de aplicación propio
+#### Mapa de Empatía - Elena Valero
+![Empathy Map Elena](./P2/Entrega/ElenaValero_EMpathymap.png)
+
+**Problema e Hipótesis:**
+La principal carencia actual es la infraestructura técnica y la fragmentación digital de la experiencia. Nuestra hipótesis se fundamenta en que una unificación del ecosistema digital de La Qarmita, que ofrezca una navegación intuitiva y una agenda centralizada (*Mobile-First*), eliminará la fricción en la interacción del usuario e impulsará el alcance de la comunidad artística y cultural local. Además de un modelo de subscripción para fidelizar a los usuarios.
 
 
 ### 2.b ScopeCanvas
