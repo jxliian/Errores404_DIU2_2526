@@ -234,7 +234,31 @@ La principal carencia actual es la infraestructura técnica y la fragmentación 
 ![Método UX](img/Sitemap.png) 
 -----
 
->>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
+**User Task Matrix**
+
+En nuestra matriz de tareas de usuario, hemos recopilado las funciones principales que la plataforma debe ofrecer y hemos evaluado la relevancia de cada una para nuestros distintos públicos. Para ello, hemos definido tres grupos clave basándonos en las Personas y los roles del sistema, asignando prioridades de Alta (H), Media (M) y Baja (L), o usando un guión (-) si la acción no aplica.
+
+| Acción / Función | Cliente Habitual (Natalio) | Gestor Cultural (Elena) | Administrador |
+| :---------------- | :------------------------: | :-----------------------: | :-------------: |
+| Iniciar sesión / Registrarse | H | H | H |
+| Consultar horario, ubicación y afluencia | M | H | L |
+| Ver menú y carta de cafés de especialidad | H | M | L |
+| Ver agenda de eventos y exposiciones | H | H | L |
+| Reservar una mesa / espacio de estudio | H | M | - |
+| Suscribirse al plan de fidelización | H | L | - |
+| Comprar en la tienda online (Café/Libros) | M | L | - |
+| Proponer un evento o exposición artística | - | H | - |
+| Gestionar y Aprobar agenda cultural | - | - | H |
+| Publicar nuevo producto en la tienda/menú | - | - | H |
+| Dejar una reseña o comentario | M | M | - |
+| Editar perfil y preferencias de alertas | H | H | H |
+| Contactar con soporte / Resolver dudas | L | M | H |
+
+<br>
+
+**User / Task Flow**
+
+>>> *[Pendiente]* Aquí irá diagramado de forma visual el flujo paso a paso de la tarea principal escogida (por ejemplo: Flujo de "Natalio" para suscribirse al plan de fidelización, o Flujo de "Elena" para proponer una exposición). Podéis diseñar los diagramas de bloques (pantalla) en Figma o Miro y subir las imágenes a P2/.
 
 
 ### 2.c IA: Sitemap + Labelling 
