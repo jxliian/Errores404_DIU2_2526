@@ -239,13 +239,13 @@ En este ScopeCanvas detallamos la propuesta de valor para **La Qarmita**, centra
 
 En nuestra matriz de tareas de usuario, hemos recopilado las funciones principales que la plataforma debe ofrecer y hemos evaluado la relevancia de cada una para nuestros distintos públicos. Para ello, hemos definido tres grupos clave basándonos en las Personas y los roles del sistema, asignando prioridades de Alta (H), Media (M) y Baja (L), o usando un guión (-) si la acción no aplica.
 
-| Acción / Función | Cliente Habitual (Natalio) | Gestor Cultural (Elena) | Administrador |
+| Acción / Función | Cliente Habitual (Natalio) | Nuevo Cliente (Elena) | Administrador |
 | :---------------- | :------------------------: | :-----------------------: | :-------------: |
 | Iniciar sesión / Registrarse | H | H | H |
 | Consultar horario, ubicación y afluencia | M | H | L |
 | Ver menú y carta de cafés de especialidad | H | M | L |
 | Ver agenda de eventos y exposiciones | H | H | L |
-| Reservar una mesa / espacio de estudio | H | M | - |
+| Reservar una mesa / espacio de estudio | H | H | - |
 | Suscribirse al plan de fidelización | H | L | - |
 | Comprar en la tienda online (Café/Libros) | M | L | - |
 | Proponer un evento o exposición artística | - | H | - |
