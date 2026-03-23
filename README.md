@@ -209,13 +209,10 @@ Existe una discrepancia enorme entre el "producto" físico (excelente) y el "pro
 ### 2.a Reframing / IDEACION: Empathy Map 
 ----
 
-A partir de la experiencia adquirida en el análisis de competidores y el journey de nuestros usuarios, hemos sintetizado los hallazgos empleando **Mapas de Empatía** para nuestras dos Personas principales. Esta herramienta nos ayuda a entender mejor qué dicen, piensan, hacen y sienten, permitiendo identificar puntos clave (*pains & gains*) para nuestra nueva propuesta de valor. La propuesta se enfoca en resolver las carencias tecnológicas de la competencia directa solucionando el ruido visual y mejorando los canales de información.
+A partir de la experiencia adquirida en el análisis de competidores y el journey de nuestros usuarios, hemos sintetizado los hallazgos empleando un **Mapa de Empatía** general que engloba a nuestras Personas principales. Esta herramienta nos ayuda a entender mejor qué dicen, piensan, hacen y sienten, permitiendo identificar puntos clave (*pains & gains*) para nuestra nueva propuesta de valor. La propuesta se enfoca en resolver las carencias tecnológicas de la competencia directa solucionando el ruido visual y mejorando los canales de información.
 
-#### Mapa de Empatía - Natalio Genil
-![Empathy Map Natalio](./P2/Entrega/NatalioGenil_EMpathymap.png)
-
-#### Mapa de Empatía - Elena Valero
-![Empathy Map Elena](./P2/Entrega/ElenaValero_EMpathymap.png)
+#### Mapa de Empatía General
+![Empathy Map General](./P2/Entrega/EMpathymap_general.png)
 
 **Problema e Hipótesis:**
 La principal carencia actual es la infraestructura técnica y la fragmentación digital de la experiencia. Nuestra hipótesis se fundamenta en que una unificación del ecosistema digital de La Qarmita, que ofrezca una navegación intuitiva y una agenda centralizada (*Mobile-First*), eliminará la fricción en la interacción del usuario e impulsará el alcance de la comunidad artística y cultural local. Además de un modelo de subscripción para fidelizar a los usuarios.
@@ -259,7 +256,13 @@ En nuestra matriz de tareas de usuario, hemos recopilado las funciones principal
 
 **User / Task Flow**
 
->>> *[Pendiente]* Aquí irá diagramado de forma visual el flujo paso a paso de la tarea principal escogida (por ejemplo: Flujo de "Natalio" para suscribirse al plan de fidelización, o Flujo de "Elena" para proponer una exposición). Podéis diseñar los diagramas de bloques (pantalla) en Figma o Miro y subir las imágenes a P2/.
+A continuación se muestran los diagramas de flujo para las tareas principales seleccionadas, detallando el recorrido paso a paso que realiza el usuario para completarlas.
+
+#### Taskflow 1
+![Taskflow 1](./P2/Entrega/Taskflow1.png)
+
+#### Taskflow 2
+![Taskflow 2](./P2/Entrega/taskflow2.png)
 
 
 ### 2.c IA: Sitemap + Labelling 
