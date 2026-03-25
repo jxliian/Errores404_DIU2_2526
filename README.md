@@ -274,6 +274,8 @@ A continuación se muestran los diagramas de flujo para las tareas principales s
 * **Sitemap**
 
 <!-- Este sitemap es orientativo, mangel debera de cambiarlo por el que haga el bien -->
+<!-- Te recomiendo que veas los de otros años para que veas como hacerlo 
+Lo ideal seria que fuera un arbol con profundidad +2 pq ahora solo tiene profundidad 2 -->
 
 ![Sitemap](./P2/Entrega/sitemap_v1.png)
 
