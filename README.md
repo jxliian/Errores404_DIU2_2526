@@ -273,6 +273,8 @@ A continuación se muestran los diagramas de flujo para las tareas principales s
 
 * **Sitemap**
 
+<!-- Este sitemap es orientativo, mangel debera de cambiarlo por el que haga el bien -->
+
 ![Sitemap](./P2/Entrega/sitemap_v1.png)
 
 * **Labelling**
