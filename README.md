@@ -269,25 +269,39 @@ A continuación se muestran los diagramas de flujo para las tareas principales s
 ![Método UX](img/labelling.png) 
 ----
 
->>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app). 
+<!-- >>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app).  -->
+
+* **Sitemap**
+
+*(Sustituir por el enlace/imagen del Sitemap generado en Figma)*
+
+* **Labelling**
 
 | Término | Significado | Icono |
 | :------- | :---------- | :---: |
 | Inicio | Página principal que da acceso a todas las secciones de La Qarmita | 🏠 |
 | Sobre Nosotros | Historia, ubicación, horarios y concepto del local (Café & Cultura) | 📖 |
 | Menú / Carta | Catálogo detallado de cafés de especialidad, tés y repostería artesanal | ☕ |
+| Alérgenos | Información de ingredientes, trazas e intolerancias del menú de comida | 🥜 |
 | Agenda Cultural | Calendario interactivo con eventos, exposiciones y talleres próximos | 📅 |
+| Detalle del Evento | Página de un evento específico con información de autores o entradas | 🎟️ |
+| Novedades / Blog | Noticias de La Qarmita, artículos sobre café y crónicas de exposiciones | 📰 |
 | Reservar Mesa | Sección para solicitar reserva de una mesa o un espacio de estudio/reunión | 🛋️ |
 | Tienda Local | Espacio para comprar café en grano, libros y merchandising | 🛒 |
 | Club Qarmita | Información y suscripción al plan de fidelización/recompensas del local | 🌟 |
 | Proponer Evento | Formulario para que artistas y gestores culturales propongan actividades | 🎭 |
-| Contacto / Soporte | Canales de comunicación, redes sociales y resolución de dudas frecuentes | 📞 |
+| Preguntas Frecuentes | Resolución de dudas sobre espacios, métodos de pago y reservas (FAQ) | ❓ |
+| Contacto | Canales de comunicación directa, redes sociales y mapa de ubicación | 📞 |
+| Políticas Legales | Términos de uso, política de privacidad y condiciones de venta | ⚖️ |
 | Iniciar Sesión / Registro | Acceso privado a la plataforma para clientes y organizadores | 👤 |
+| Recuperar Contraseña | Proceso automatizado para restablecer el acceso a la cuenta | 🔑 |
 | Mi Perfil | Gestión de preferencias de alertas, datos personales, y configuración | ⚙️ |
+| Mis Favoritos | Lista de deseos del usuario para guardar libros, eventos o cafés de interés | ❤️ |
+| Mis Reservas | Apartado interno del perfil para consultar las reservas de mesas o eventos | 🎫 |
+| Historial de Compras | Registro de pedidos previos en la tienda online y seguimiento de envíos | 📦 |
 | Carrito | Resumen de los artículos/libros seleccionados listos para proceder al pago | 🛍️ |
-| Mis Reservas | Apartado interno del perfil para consultar las mesas o eventos registrados | 🎫 |
-| Reseñas | Espacio interactivo para leer o añadir comentarios sobre la experiencia | ⭐ |
-| Panel de Control | (Admin) Gestión interna completa de la agenda cultural, tienda y reservas | 🔒 |
+| Reseñas | Espacio interactivo para que los usuarios valoren su experiencia y opinen | ⭐ |
+| Panel de Control | (Admin) Gestión interna completa de la agenda cultural, tienda y usuarios | 🔒 |
 | Cerrar Sesión | Opción para finalizar de forma segura la sesión iniciada en el sistema | 🚪 |
 
 
