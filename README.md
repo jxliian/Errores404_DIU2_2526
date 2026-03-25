@@ -273,7 +273,7 @@ A continuación se muestran los diagramas de flujo para las tareas principales s
 
 * **Sitemap**
 
-*(Sustituir por el enlace/imagen del Sitemap generado en Figma)*
+![Sitemap](./P2/Entrega/sitemap_v1.png)
 
 * **Labelling**
 
