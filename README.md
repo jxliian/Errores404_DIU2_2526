@@ -271,9 +271,24 @@ A continuación se muestran los diagramas de flujo para las tareas principales s
 
 >>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app). 
 
-Término | Significado     
-| ------------- | -------
-  Login  | acceder a plataforma
+| Término | Significado | Icono |
+| :------- | :---------- | :---: |
+| Inicio | Página principal que da acceso a todas las secciones de La Qarmita | 🏠 |
+| Sobre Nosotros | Historia, ubicación, horarios y concepto del local (Café & Cultura) | 📖 |
+| Menú / Carta | Catálogo detallado de cafés de especialidad, tés y repostería artesanal | ☕ |
+| Agenda Cultural | Calendario interactivo con eventos, exposiciones y talleres próximos | 📅 |
+| Reservar Mesa | Sección para solicitar reserva de una mesa o un espacio de estudio/reunión | 🛋️ |
+| Tienda Local | Espacio para comprar café en grano, libros y merchandising | 🛒 |
+| Club Qarmita | Información y suscripción al plan de fidelización/recompensas del local | 🌟 |
+| Proponer Evento | Formulario para que artistas y gestores culturales propongan actividades | 🎭 |
+| Contacto / Soporte | Canales de comunicación, redes sociales y resolución de dudas frecuentes | 📞 |
+| Iniciar Sesión / Registro | Acceso privado a la plataforma para clientes y organizadores | 👤 |
+| Mi Perfil | Gestión de preferencias de alertas, datos personales, y configuración | ⚙️ |
+| Carrito | Resumen de los artículos/libros seleccionados listos para proceder al pago | 🛍️ |
+| Mis Reservas | Apartado interno del perfil para consultar las mesas o eventos registrados | 🎫 |
+| Reseñas | Espacio interactivo para leer o añadir comentarios sobre la experiencia | ⭐ |
+| Panel de Control | (Admin) Gestión interna completa de la agenda cultural, tienda y reservas | 🔒 |
+| Cerrar Sesión | Opción para finalizar de forma segura la sesión iniciada en el sistema | 🚪 |
 
 
 ### 2.d Wireframes
