@@ -229,7 +229,7 @@ En este ScopeCanvas detallamos la propuesta de valor para **La Qarmita**, centra
 
 
 ### 2.b User Flow (task) analysis 
-![Método UX](./P2/Entrega/sitemap.png) 
+![Método UX](img/Sitemap.png) 
 -----
 
 **User Task Matrix**
@@ -277,7 +277,7 @@ A continuación se muestran los diagramas de flujo para las tareas principales s
 <!-- Te recomiendo que veas los de otros años para que veas como hacerlo 
 Lo ideal seria que fuera un arbol con profundidad +2 pq ahora solo tiene profundidad 2 -->
 
-![Sitemap](./P2/Entrega/sitemap_v1.png)
+![sitemap](./P2/Entrega/sitemap.png)
 
 * **Labelling**
 
