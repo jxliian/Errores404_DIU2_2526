@@ -229,7 +229,7 @@ En este ScopeCanvas detallamos la propuesta de valor para **La Qarmita**, centra
 
 
 ### 2.b User Flow (task) analysis 
-![Método UX](img/Sitemap.png) 
+![Método UX](./P2/Entrega/sitemap.png) 
 -----
 
 **User Task Matrix**
