@@ -26,7 +26,7 @@ Descripción:
 Plataforma de gestión y promoción de experiencias culturales vinculadas al consumo de café de especialidad, basada en el caso de estudio de La Qarmita. Se busca un cambio de paradigma no solo en la web sino en la forma de fidelizar a los nuevos clientes.
 
 Logotipo: 
-(Pendiente de diseño en P3)
+![Logotipo de La Qarmita](./P3/Entrega/la_qarmita_logo.png)
 
 Miembros y nombre del equipo:
  * :bust_in_silhouette:  Julian Carrion Tovar     :octocat: jxliian
@@ -357,10 +357,12 @@ Este apartado permite al usuario administrar sus datos personales, comprobar sus
 ![Método UX](img/moodboard.png)
 -----
 
->>> Diseño visual con una guía de estilos visual (moodboard) 
->>> Incluir Logotipo. Todos los recursos estarán subidos a la carpeta P3/
->>> Explique aqui la/s herramienta/s utilizada/s y el por qué de la resolución empleada. Reflexione ¿Se puede usar esta imagen como cabecera de Instagram, por ejemplo, o se necesitan otras?
+El objetivo principal de esta fase es definir el lenguaje visual y el tono comunicativo que respaldarán la remodelación estética y funcional de la web original de La Qarmita. A través de este Moodboard, buscamos establecer una línea gráfica cálida y cercana que refleje la unión perfecta entre el café de especialidad y la escena cultural local.
 
+![Moodboard](./P3/Entrega/moodboard.png)
+
+*   **Logotipo:** Se ha diseñado un imagotipo minimalista que fusiona sutilmente una taza humeante de café con un libro abierto, usando una tipografía Serif clásica (*Playfair Display*) para transmitir autenticidad y madurez cultural.
+*   **Herramientas utilizadas:** Se ha empleado Figma para la composición gráfica del Moodboard. Para la creación conceptual del logotipo y las referencias fotográficas nos hemos apoyado en Inteligencia Artificial (Gemini).
 
 ### 3.b Landing Page
 ![Método UX](img/landing-page.png) 
