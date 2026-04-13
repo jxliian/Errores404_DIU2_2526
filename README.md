@@ -313,7 +313,7 @@ Lo ideal seria que fuera un arbol con profundidad +2 pq ahora solo tiene profund
 ![Método UX](img/Wireframes.png) 
 -----
 
-En esta sección detallamos el diseño del layout en su versión móvil desarrollado con la herramienta **Figma**, enfocándonos en la organización y simulación de la interfaz. Estos wireframes de baja fidelidad (Lo-Fi) nos ayudan a establecer la jerarquía visual de la información y la disposición de las funcionalidades básicas.
+En esta sección detallamos el diseño del layout en su versión desarrollado con la herramienta **Figma**, enfocándonos en la organización y simulación de la interfaz. Estos wireframes de baja fidelidad (Lo-Fi) nos ayudan a establecer la jerarquía visual de la información y la disposición de las funcionalidades básicas.
 
 Puedes consultar el diseño completo y los primeros acercamientos en el siguiente enlace:
 🔗 **[Ver bocetos de los wireframes (PDF)](./P2/Entrega/Wireframe_boceto.pdf)**
