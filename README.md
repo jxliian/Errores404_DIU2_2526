@@ -324,13 +324,27 @@ A continuación, exponemos las vistas principales del rediseño:
 La pantalla de inicio busca distribuir a los usuarios hacia las áreas clave de La Qarmita: próximos eventos, reservas y productos destacados de su tienda o carta.
 ![Wireframe Home](./P2/Entrega/wireframes/home.png)
 
+#### Home con Grid
+![Wireframe Home](./P2/Entrega/wireframes/home_grid.png)
+
+
+
 #### Agenda Cultural
 La vista de la agenda muestra de manera estructurada los eventos de la semana o mes (talleres, exposiciones artísticas, presentaciones de libros). Se prioriza la legibilidad y la facilidad para inscribirse en las distintas actividades propuestas.
 ![Wireframe Agenda](./P2/Entrega/wireframes/agenda.png)
 
+#### Agenda Cultural con Grid
+![Wireframe Agenda](./P2/Entrega/wireframes/agenda_grid.png)
+
 #### Mi Perfil
 Este apartado permite al usuario administrar sus datos personales, comprobar sus puntos y beneficios del "Club Qarmita", y revisar el estado de sus reservas o su historial de compras y asistencia a eventos.
 ![Wireframe Mi Perfil](./P2/Entrega/wireframes/miperfil.png)
+
+#### Mi Perfil con Grid
+![Wireframe Mi Perfil](./P2/Entrega/wireframes/perfil_grid.png)
+
+
+
 
 <br>
 
