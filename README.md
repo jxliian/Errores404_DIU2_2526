@@ -368,8 +368,9 @@ El objetivo principal de esta fase es definir el lenguaje visual y el tono comun
 ![Método UX](img/landing-page.png) 
 ----
 
->>> Plantear el Landing Page del producto. Aplica estilos definidos en el moodboard
+A continuación se muestra el landing page del proyecto:
 
+![Landing Page](./P3/Entrega/landingpage_nueva.png)
 
 ### 3.c Guidelines
 ![Método UX](img/guidelines.png) 
