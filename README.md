@@ -368,6 +368,10 @@ El objetivo principal de esta fase es definir el lenguaje visual y el tono comun
 ![Método UX](img/landing-page.png) 
 ----
 
+De cara a la elaboración del Landing Page se han introducido modificaciones respecto al diseño inicial del Wireframe. Posteriormente a la reunión con el profesor, se nos remarcó los siguientes puntos a mejorar de cara al Design System:
+
+*   **Hero Section:** Establecer un hero section con una imagen de fondo y un título que invite a la acción. Por medio de un botón se redirigirá al usuario a la página de agenda.* 
+
 A continuación se muestra el landing page del proyecto:
 
 ![Landing Page](./P3/Entrega/landingpage_nueva.png)
