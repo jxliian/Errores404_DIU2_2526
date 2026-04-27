@@ -376,19 +376,44 @@ A continuación se muestra el landing page del proyecto:
 
 ![Landing Page](./P3/Entrega/landingpage_nueva.png)
 
-### 3.c Guidelines
+#### Proceso de Generación de Prompts (Fibe Coding / IA)
+Para la creación de esta Landing Page hemos utilizado la herramienta de IA **Figma Make**, siguiendo un proceso iterativo de refinamiento de prompts para alinear el diseño con nuestra propuesta de valor:
+
+1.  **Prompt Inicial (Estructura y Estilo):** Definimos una landing page Hi-Fi para "La Qarmita Cafe Cultural" detallando la paleta de colores (Crema, Espresso, Terracota), la tipografía (*Playfair Display* e *Inter*) y la arquitectura del wireframe (Novedades, Concepto Neo-Qarmita, Agenda y Público Objetivo).
+2.  **Refinamiento de Conversión:** Aumentamos el impacto visual del **Hero Section** (700px de altura) y priorizamos la acción principal mediante un botón llamativo de **"¡RESERVA YA!"** con efectos hover.
+3.  **Simplificación de UI:** Eliminamos elementos de fricción como la barra de búsqueda y secciones redundantes de eventos para centrar la atención en la navegación principal y el storytelling.
+4.  **CTA Unificado:** Sustituimos los botones múltiples del header por un único Call to Action prominente de **"Regístrate ahora"**, simplificando la toma de decisiones del usuario.
+
+### 3.c Design System & Guidelines
 ![Método UX](img/guidelines.png) 
 ----
 
->>> Estudio de Guidelines y explicación de los Patrones IU a usar 
->>> Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado. 
+Para garantizar la consistencia visual y la escalabilidad del proyecto, hemos desarrollado un **Design System ligero** siguiendo la metodología de **Atomic Design**.
+
+#### Herramientas e IA utilizada:
+Siguiendo las recomendaciones del guion de prácticas, hemos utilizado el plugin de Figma **Foundation Studio** para automatizar la generación de nuestros cimientos (*Foundations*). Esta herramienta nos ha permitido definir de forma paramétrica:
+*   **Design Tokens:** Variables de color, escalas tipográficas y sistemas de espaciado basados en una retícula de 8px.
+*   **Consistencia:** Generación automática de rampas cromáticas y escalas modulares para jerarquías claras.
+
+#### Decisiones de Diseño (Guidelines):
+*   **Paleta de Colores:** 
+    *   **Primario (`#2A221C` - Café Espresso):** Transmite la sobriedad, profundidad y elegancia del café de especialidad.
+    *   **Secundario (`#C66B4A` - Terracota Arcilla):** Un color de acento cálido que invita a la acción y recuerda a los elementos orgánicos y artesanales.
+    *   **Fondo (`#F7F4EF` - Crema de Leche):** Sustituye al blanco puro para dar una sensación de papel o libro antiguo, reforzando el concepto de librería y reduciendo la fatiga visual.
+*   **Tipografía:** 
+    *   **Encabezados (*Playfair Display*):** Una Serif clásica con trazos elegantes que evoca la tradición editorial y cultural.
+    *   **Cuerpo de Texto (*Inter*):** Una Sans-Serif moderna y geométrica optimizada para la máxima legibilidad en dispositivos digitales.
 
 
-### 3.d Mockup
+![Design System](./P3/Entrega/designsystem.png)
+
+### 3.d Mockup (Layout Hi-Fi)
 ![Método UX](img/mockup.png) 
 ----
 
->>> Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
+El Mockup consiste en el diseño de alta fidelidad que integra los componentes del Design System en un layout interactivo. Se ha priorizado una **jerarquía visual semántica** (header, contenido destacado, agenda y footer) y la simulación de tareas críticas como la consulta de la agenda y la reserva de espacios.
+
+La estructura se ha organizado mediante **Auto Layout** en Figma para garantizar un comportamiento responsive y facilitar la futura exportación a código HTML/CSS.
 
 
 <br>
