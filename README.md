@@ -404,6 +404,36 @@ Siguiendo las recomendaciones del guion de prácticas, hemos utilizado el plugin
     *   **Encabezados (*Playfair Display*):** Una Serif clásica con trazos elegantes que evoca la tradición editorial y cultural.
     *   **Cuerpo de Texto (*Inter*):** Una Sans-Serif moderna y geométrica optimizada para la máxima legibilidad en dispositivos digitales.
 
+#### Patrones UI aplicados
+
+*   **Onboarding / About**
+    *   Sección "Concepto Neo-Qarmita" integrada en la portada que sirve para introducir al usuario al propósito del local, explicando su propuesta como "slow cafe", librería y galería de arte.
+
+*   **Menú (NavBar)**
+    *   Navegación principal clara y accesible desde la cabecera para dirigir a las secciones clave (Agenda Cultural, Menú/Carta, Tienda Local, etc.).
+
+*   **Hero image**
+    *   Imagen destacada ocupando la primera vista (Hero Section) con un título inmersivo que capta la atención.
+
+*   **Botones (Call to Actions)**
+    *   Botón principal prominente en la zona superior (Hero/Header) para guiar la conversión directa ("¡RESERVA YA!" o "Regístrate ahora").
+    *   Botones secundarios o enlaces de acción integrados en las tarjetas para fomentar la interacción directa con el contenido.
+
+*   **Article List (Cards)**
+    *   Uso de tarjetas (cards) para estructurar visualmente la sección de "Novedades" y la previsualización de la "Agenda" en la propia página principal, mostrando un resumen de las actividades destacadas.
+
+*   **About**
+    *   Sección sobre nosotros detallando la historia, filosofía, ubicación y horarios de La Qarmita.
+
+*   **Público objetivo**
+    *   Tarjetas descriptivas del público objetivo, acompañadas de imágenes representativas que los identifican.
+
+*   **Redes Sociales**
+    *   Integración de iconos de redes sociales en la sección de footer.
+
+*   **Footer**
+    *   Sección inferior (pie de página) que sirve como ancla de navegación secundaria, organizando la información de contacto, redes sociales, ubicación y políticas legales de La Qarmita.
+
 
 ![Design System](./P3/Entrega/designsystem.png)
 
