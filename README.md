@@ -25,6 +25,9 @@ Nombre del Proyecto: La Qarmita - Cultura y Café - El cambio de paradigma
 Descripción: 
 Plataforma de gestión y promoción de experiencias culturales vinculadas al consumo de café de especialidad, basada en el caso de estudio de La Qarmita. Se busca un cambio de paradigma no solo en la web sino en la forma de fidelizar a los nuevos clientes.
 
+**Web del Mockup:** [https://crane-boho-90485797.figma.site](https://crane-boho-90485797.figma.site)
+
+
 Logotipo: 
 ![Logotipo de La Qarmita](./P3/Entrega/la_qarmita_logo.png)
 
@@ -444,6 +447,23 @@ Siguiendo las recomendaciones del guion de prácticas, hemos utilizado el plugin
 El Mockup consiste en el diseño de alta fidelidad que integra los componentes del Design System en un layout interactivo. Se ha priorizado una **jerarquía visual semántica** (header, contenido destacado, agenda y footer) y la simulación de tareas críticas como la consulta de la agenda y la reserva de espacios.
 
 La estructura se ha organizado mediante **Auto Layout** en Figma para garantizar un comportamiento responsive y facilitar la futura exportación a código HTML/CSS.
+
+**Puedes visualizar la web del mockup en el siguiente enlace:**
+🔗 **[Ver Mockup Interactivo (Figma Site)](https://crane-boho-90485797.figma.site)**
+
+#### Vistas Principales del Mockup
+
+| Novedades | Registro | Reserva |
+| :---: | :---: | :---: |
+| ![Novedades](./P3/Entrega/novedades.png) | ![Registrar](./P3/Entrega/registrar.png) | ![Reserva](./P3/Entrega/reservaya.png) |
+| Sección de noticias y novedades sobre el café y la cultura local. | Formulario de registro para el plan de fidelización Club Qarmita. | Interfaz para la reserva rápida de mesas y espacios de estudio. |
+
+| Tienda | Menú y Horarios | Agenda |
+| :---: | :---: | :---: |
+| ![Tienda](./P3/Entrega/tienda.png) | ![Menú](./P3/Entrega/menuhorario.png) | ![Agenda](./P3/Entrega/agenda.png) |
+| Catálogo de productos con café de especialidad y libros seleccionados. | Carta digital con horarios de apertura y oferta gastronómica. | Calendario interactivo con los próximos eventos y talleres culturales. |
+
+
 
 
 <br>
