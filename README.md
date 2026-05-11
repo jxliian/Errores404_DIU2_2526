@@ -560,6 +560,10 @@ pnpm dev   # → http://localhost:5173
 
 Páginas implementadas: **Home**, **Agenda** (con filtros), **Detalle de Evento**, **Tienda**, **Menú**, **Novedades**, **Sobre Nosotros** y **Registro/Club Qarmita**.
 
+![Demo La Neo Qarmita](./P4/demo_preview.webp)
+
+🌐 **Web en producción:** [https://errores404-laqarmita.surge.sh](https://errores404-laqarmita.surge.sh)
+
 ### 5.b Documentación de componentes y Briefing
 ![Método UX](img/usabilityReview.png)
 ----

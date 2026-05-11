@@ -1,6 +1,8 @@
 # Práctica 4: Componentes UI
 ## Equipo: Errores404 (DIU2)
 
+🌐 **Web en producción: [errores404-laqarmita.surge.sh](https://errores404-laqarmita.surge.sh)**
+
 Este documento describe el proceso de **paso a producción** del prototipo diseñado en Figma durante la P3, eligiendo la **Opción B: Figma Make** como alternativa de exportación directa a React.
 
 ---
@@ -91,8 +93,18 @@ LaNeoQarmita/
 
 ---
 
-## Cómo ejecutar en local
+## Despliegue y ejecución
 
+### 🌐 Versión en producción (Surge.sh)
+**URL:** [https://errores404-laqarmita.surge.sh](https://errores404-laqarmita.surge.sh)
+
+Desplegado con:
+```bash
+pnpm build
+surge dist/ errores404-laqarmita.surge.sh
+```
+
+### 💻 Ejecutar en local
 ```bash
 # Desde la carpeta P4/LaNeoQarmita
 pnpm install
