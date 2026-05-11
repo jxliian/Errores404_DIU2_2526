@@ -537,21 +537,36 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 
 <br>
 
-## Paso 5. Exportación y Documentación 
+## Paso 5. Exportación y Documentación (P4)
 
 
-### 5.a Exportación a HTML/React
+### 5.a Exportación a React (Figma Make)
 ![Método UX](img/usabilityReview.png) 
 ----
 
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
+El diseño Hi-Fi de la P3 ha sido exportado a una **aplicación React** funcional mediante **Figma Make** (Opción B). El proyecto generado utiliza el stack completo recomendado:
 
+- **Vite 6** + **React 18** como entorno de producción
+- **Tailwind CSS v4** para los estilos, con Design Tokens del sistema de diseño de la P3
+- **shadcn/ui** (componentes Radix UI accesibles) + **Lucide React** (iconos)
+- **react-router** para la navegación entre páginas
 
-### 5.b Documentación con Storybook
+El proyecto está disponible en `P4/LaNeoQarmita/`. Para ejecutarlo localmente:
+```bash
+cd P4/LaNeoQarmita
+pnpm install && pnpm approve-builds
+pnpm dev   # → http://localhost:5173
+```
+
+Páginas implementadas: **Home**, **Agenda** (con filtros), **Detalle de Evento**, **Tienda**, **Menú**, **Novedades**, **Sobre Nosotros** y **Registro/Club Qarmita**.
+
+### 5.b Documentación de componentes y Briefing
 ![Método UX](img/usabilityReview.png)
 ----
 
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
+La documentación completa del proceso (alternativas evaluadas, stack tecnológico, estructura de componentes por nivel atómico, y briefing del proceso) está disponible en:
+
+📄 **[Readme P4](./P4/readme.md)**
 
 
 <br>
