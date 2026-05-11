@@ -3,6 +3,9 @@
 
 Este documento detalla el proceso de diseño de alta fidelidad (Hi-Fi) realizado para el proyecto **La Qarmita - Cultura y Café**. Se ha seguido una metodología de **Atomic Design** y se han utilizado herramientas de Inteligencia Artificial para agilizar la creación de componentes y la generación de contenido visual.
 
+🔗 **[Acceso al Prototipo Interactivo (Figma Site)](https://crane-boho-90485797.figma.site)**
+
+
 ---
 
 ## 1. Moodboard (Diseño Visual)

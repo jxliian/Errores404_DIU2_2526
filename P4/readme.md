@@ -98,18 +98,56 @@ LaNeoQarmita/
 ### 🌐 Versión en producción (Surge.sh)
 **URL:** [https://errores404-laqarmita.surge.sh](https://errores404-laqarmita.surge.sh)
 
-Desplegado con:
+#### Proceso de despliegue — Paso a paso
+
+**Paso 1.** Instalar `pnpm` globalmente (gestor de paquetes más rápido que npm):
 ```bash
-pnpm build
-surge dist/ errores404-laqarmita.surge.sh
+npm install -g pnpm
 ```
 
-### 💻 Ejecutar en local
+**Paso 2.** Instalar todas las dependencias del proyecto exportado desde Figma Make:
+```bash
+cd P4/LaNeoQarmita
+pnpm install
+```
+
+**Paso 3.** Aprobar los scripts de build de Tailwind y esbuild (pnpm lo requiere por seguridad):
+```bash
+pnpm approve-builds
+# → Seleccionar @tailwindcss/oxide y esbuild con 'a'
+# → Confirmar con 'y'
+```
+
+**Paso 4.** Construir el bundle de producción optimizado (genera la carpeta `dist/`):
+```bash
+pnpm build
+# → Genera dist/index.html + dist/assets/ (JS + CSS minificados)
+# → Build completado en ~1 segundo, 218 KB JS + 104 KB CSS
+```
+
+**Paso 5.** Instalar la CLI de Surge globalmente:
+```bash
+npm install -g surge
+```
+
+**Paso 6.** Desplegar la carpeta `dist/` al dominio elegido en Surge:
+```bash
+surge dist/ errores404-laqarmita.surge.sh
+# → Introduce email: [EMAIL_ADDRESS]
+# → Introduce contraseña (Surge crea la cuenta automáticamente si no existe)
+# → Sube los archivos al CDN global de Surge (distribución worldwide)
+```
+
+✅ **Resultado:** Web pública disponible en [https://errores404-laqarmita.surge.sh](https://errores404-laqarmita.surge.sh)
+
+> Para **redesplegar** tras cambios: repetir Paso 4 y Paso 6 (las credenciales quedan guardadas).
+
+### 💻 Ejecutar en local (desarrollo)
 ```bash
 # Desde la carpeta P4/LaNeoQarmita
 pnpm install
-pnpm approve-builds   # Aprobar scripts de build de tailwind/esbuild
-pnpm dev              # http://localhost:5173
+pnpm approve-builds   # Solo la primera vez
+pnpm dev              # → http://localhost:5173
 ```
 
 > **Requisito:** Node.js 18+ y pnpm instalado (`npm install -g pnpm`)
