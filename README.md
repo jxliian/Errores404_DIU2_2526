@@ -468,6 +468,15 @@ La estructura se ha organizado mediante **Auto Layout** en Figma para garantizar
 | Catálogo de productos con café de especialidad y libros seleccionados. | Carta digital con horarios de apertura y oferta gastronómica. | Calendario interactivo con los próximos eventos y talleres culturales. |
 
 
+### 3.e Briefing
+![Método UX](img/mockup.png)
+----
+
+El uso de **Figma Make** (IA generativa) y el plugin **Foundation Studio** ha sido determinante en esta práctica: ambas herramientas han reducido considerablemente el tiempo invertido en la fase de base visual (design tokens, rampas cromáticas, componentes atómicos), permitiendo centrar el esfuerzo en la coherencia del flujo de usuario y la toma de decisiones de UX.
+
+La metodología **Atomic Design** ha demostrado ser la elección correcta para este proyecto: la reutilización de átomos y moléculas garantiza consistencia entre todas las vistas y facilita iteraciones rápidas sin romper el sistema. Como punto fuerte destaca la integración del Design System directamente con el prototipo interactivo, eliminando la brecha habitual entre diseño y desarrollo.
+
+La principal limitación encontrada fue la generación automática de layouts complejos mediante IA (Figma Make), que requirió múltiples rondas de refinamiento de prompts para ajustar la jerarquía visual y los criterios de accesibilidad (contraste de color). En conjunto, el resultado supera cualitativamente la web original de La Qarmita y sienta una base sólida para la exportación a código en la siguiente fase.
 
 
 <br>
@@ -555,7 +564,7 @@ El diseño Hi-Fi de la P3 ha sido exportado a una **aplicación React** funciona
 - **shadcn/ui** (componentes Radix UI accesibles) + **Lucide React** (iconos)
 - **react-router** para la navegación entre páginas
 
-El proyecto está disponible en `P4/LaNeoQarmita/`. Para ejecutarlo localmente:
+El proyecto está disponible en [P4/LaNeoQarmita/](P4/LaNeoQarmita/). Para ejecutarlo localmente:
 ```bash
 cd P4/LaNeoQarmita
 pnpm install && pnpm approve-builds
