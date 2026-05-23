@@ -493,7 +493,6 @@ El Caso B corresponde a la propuesta de rediseño web del restaurante de hamburg
 
 Se ha realizado un estudio entre-sujetos con **10 participantes**: 5 para el Caso A (NeoQarmita) y 5 para el Caso B (Mejora de Goiko). Los datos completos están disponibles en:
 
-📄 **[P5/Datos_Usuarios.md](P5/Datos_Usuarios.md)**
 
 | Usuarios | Sexo/Edad | Ocupación | Exp. TIC | Personalidad | Plataforma | Caso | Posibles situaciones conflictivas |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
