@@ -487,24 +487,42 @@ La principal limitación encontrada fue la generación automática de layouts co
 ![Método UX](img/usability-testing.png)
 -----
 
->>> Breve descripción del caso asignado (llamado Caso-B) con enlace al repositorio Github
->>> Tabla y asignación de personas ficticias (o reales) a las pruebas. Exprese las ideas de posibles situaciones conflictivas de esa persona en las propuestas evaluadas. Mínimo 4 usuarios: asigne 2 al Caso A y 2 al caso B.
+**Caso B asignado:** Mejora de Goiko — [Repositorio del equipo](https://github.com/ClaudioDevv/UX_CaseStudy)
 
+El Caso B corresponde a la propuesta de rediseño web del restaurante de hamburguesas **Goiko**. Su objetivo principal es modernizar la presencia digital del local, mejorando la navegación, la búsqueda de restaurantes, el proceso de reserva online y la visibilidad del menú. A diferencia de nuestra propuesta (Caso A), el Caso B se centra en un contexto de restauración rápida de calidad, con un enfoque más comercial y transaccional.
 
+Se ha realizado un estudio entre-sujetos con **10 participantes**: 5 para el Caso A (NeoQarmita) y 5 para el Caso B (Mejora de Goiko). Los datos completos están disponibles en:
 
-| Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
-| ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| User1's name  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
+📄 **[P5/Datos_Usuarios.md](P5/Datos_Usuarios.md)**
+
+| Usuarios | Sexo/Edad | Ocupación | Exp. TIC | Personalidad | Plataforma | Caso | Posibles situaciones conflictivas |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| P01 — Marcos | H / 22 | Estudiante | Alta | Racional | Portátil | A | Puede buscar atajos y saltarse pasos si el flujo no es directo. |
+| P02 — Laura | M / 28 | Diseñadora | Alta | Crítica | Portátil | A | Puede ser muy exigente con la coherencia visual y el design system. |
+| P03 — Carlos | H / 45 | Usuario final | Media | Pausado | Sobremesa | A | Puede tardar en identificar iconos sin etiquetas de texto. |
+| P04 — Sofía | M / 19 | Estudiante | Media | Impulsiva | Portátil | A | Puede frustrarse si hay demasiados pasos para completar una reserva. |
+| P05 — Fernando | H / 60 | Usuario final | Baja | Metódico | Sobremesa | A | Puede no entender el sistema de fidelización sin explicación explícita. |
+| P06 — Elena | M / 24 | Estudiante | Alta | Comparativa | Portátil | B | Puede comparar inconscientemente con otras webs de restaurantes similares. |
+| P07 — David | H / 31 | Desarrollador | Alta | Analítico | Portátil | B | Puede frustrarse si detecta problemas técnicos o de rendimiento. |
+| P08 — Pilar | M / 52 | Usuario final | Baja | Cautelosa | Tablet | B | Puede abandonar el flujo de reserva si hay demasiados pasos. |
+| P09 — Roberto | H / 35 | Usuario final | Media | Práctico | Sobremesa | B | Puede tener dificultades si la búsqueda de restaurante no es intuitiva. |
+| P10 — Nadia | M / 21 | Estudiante | Media | Visual | Móvil | B | Puede perder interés si la web no está optimizada para móvil. |
 
 
 ### 4.b Diseño de las pruebas 
 ![Método UX](img/usability-testing.png) 
 -----
 
->>> Planifique qué pruebas se van a desarrollar. ¿En qué consisten? ¿Se hará uso del checklist de la P1?
+Las pruebas se han desarrollado de forma presencial utilizando **GazeMapping** (Eye Tracking) y **Tally.so** (cuestionario SUS), basándonos en las acciones clave definidas en ambas propuestas. En cada caso se han analizado dos pantallas representativas del diseño.
+
+#### 1. Prueba de tareas (interacción real)
+Se proponen tareas concretas a cada usuario sobre el diseño que le corresponde. Las sesiones duran entre 5 y 10 minutos, supervisadas, y se anota si el usuario necesita ayuda para completarlas.
+
+#### 2. Eye Tracking (GazeMapping)
+Prueba de exploración libre seguida de tareas dirigidas. Se generan mapas de calor (heatmaps) para analizar la jerarquía visual, la atención en zonas de interés (POI) y la efectividad de los elementos de conversión (CTAs, menús, botones).
+
+#### 3. Cuestionario SUS (System Usability Scale)
+Cuestionario estándar de 10 preguntas administrado al finalizar la sesión. Permite comparar la usabilidad percibida entre la propuesta cultural/editorial (Caso A) y la propuesta de restauración modernizada (Caso B).
 
 
 
@@ -512,39 +530,187 @@ La principal limitación encontrada fue la generación automática de layouts co
 ![Método UX](img/Survey.png) 
 ----
 
->>> Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS** que permite valorar la satisfacción de cada usuario con el diseño utilizado (casos A o B). Para calcular la valoración numérica y la etiqueta linguistica resultante usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Previamente conozca en qué consiste la escala SUS y cómo se interpretan sus resultados
-http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
-Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
->>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
+Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS** que permite valorar la satisfacción de cada usuario con el diseño utilizado (casos A o B).
+
+- 📋 **Cuestionario online (Tally):** [https://tally.so/r/KYaJMk](https://tally.so/r/KYaJMk)
+- 📄 **Estructura del cuestionario (Markdown):** [P5/Cuestionario_SUS.md](P5/Cuestionario_SUS.md)
+
+Para calcular la valoración numérica y la etiqueta lingüística resultante usamos la [hoja de cálculo SUS](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Para más información sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf).
+
+#### Usuarios Test A — NeoQarmita (P01, P02, P03, P04, P05)
+
+| | Preguntas | P01 | P02 | P03 | P04 | P05 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Creo que me gustará visitar con frecuencia este website | 4 | 4 | 4 | 4 | 3 |
+| 2 | Encontré el website innecesariamente complejo | 2 | 2 | 2 | 2 | 3 |
+| 3 | Pensé que era fácil utilizar este website | 4 | 4 | 4 | 4 | 3 |
+| 4 | Creo que necesitaría del apoyo de un experto para recorrer el website | 1 | 1 | 2 | 2 | 2 |
+| 5 | Encontré las funciones del website bastante bien integradas | 4 | 4 | 4 | 4 | 3 |
+| 6 | Pensé que había demasiada inconsistencia en el website | 2 | 1 | 2 | 2 | 3 |
+| 7 | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website | 4 | 5 | 4 | 4 | 4 |
+| 8 | Encontré el website muy grande al recorrerlo | 2 | 2 | 2 | 2 | 3 |
+| 9 | Me sentí muy confiado/a en el manejo del website | 4 | 4 | 3 | 4 | 3 |
+| 10 | Necesito aprender muchas cosas antes de manejarme en el website | 1 | 2 | 2 | 2 | 3 |
+
+#### Usuarios Test B — Mejora de Goiko (P06, P07, P08, P09, P10)
+
+| | Preguntas | P06 | P07 | P08 | P09 | P10 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Creo que me gustará visitar con frecuencia este website | 4 | 3 | 3 | 4 | 4 |
+| 2 | Encontré el website innecesariamente complejo | 2 | 2 | 3 | 3 | 3 |
+| 3 | Pensé que era fácil utilizar este website | 4 | 4 | 3 | 3 | 3 |
+| 4 | Creo que necesitaría del apoyo de un experto para recorrer el website | 2 | 2 | 3 | 2 | 2 |
+| 5 | Encontré las funciones del website bastante bien integradas | 4 | 3 | 2 | 4 | 3 |
+| 6 | Pensé que había demasiada inconsistencia en el website | 2 | 3 | 3 | 2 | 3 |
+| 7 | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website | 4 | 4 | 3 | 4 | 4 |
+| 8 | Encontré el website muy grande al recorrerlo | 2 | 2 | 3 | 3 | 3 |
+| 9 | Me sentí muy confiado/a en el manejo del website | 3 | 4 | 3 | 3 | 3 |
+| 10 | Necesito aprender muchas cosas antes de manejarme en el website | 2 | 2 | 3 | 2 | 3 |
+
+#### Resultados
+
+| Usuario | Caso | Puntuación SUS |
+| :--- | :--- | :--- |
+| P01 — Marcos | A | 80.0 |
+| P02 — Laura | A | 82.5 |
+| P03 — Carlos | A | 72.5 |
+| P04 — Sofía | A | 75.0 |
+| P05 — Fernando | A | 55.0 |
+| P06 — Elena | B | 72.5 |
+| P07 — David | B | 67.5 |
+| P08 — Pilar | B | 47.5 |
+| P09 — Roberto | B | 65.0 |
+| P10 — Nadia | B | 57.5 |
+
+**Promedio por caso:**
+- **Caso A (NeoQarmita): 73.0** → *Bueno*
+- **Caso B (Mejora de Goiko): 62.0** → *Aceptable*
+
+El Caso A obtiene una valoración consistentemente más alta gracias a su navegación intuitiva y estructura visual clara. El Caso B presenta mayor varianza: usuarios técnicos como David (67.5) lo navegan con relativa soltura, pero perfiles con menor competencia digital como Pilar (47.5) encuentran barreras notables, especialmente en el proceso de reserva y en la experiencia desde dispositivos táctiles.
 
 
 ### 4.d A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
 
->>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
+#### Test A — NeoQarmita (Caso A)
+
+**Pantallas analizadas:** Landing Page y Foro de comunidad
+
+**Tareas propuestas:**
+1. Localiza la agenda de eventos culturales y anota el próximo evento disponible.
+2. Realiza una reserva de mesa para 2 personas.
+3. Consulta el menú de café y encuentra el precio de una especialidad.
+4. Accede al Club Qarmita y descubre sus beneficios de fidelización.
+
+**Feedback recogido:**
+- Opinión general media: **4.8 / 7**
+- La jerarquía visual de la landing page fue identificada de forma inmediata por la mayoría de usuarios. Los perfiles con mayor competencia digital (Marcos, Laura) completaron todas las tareas sin dificultad.
+- El sistema de fidelización generó interés pero Fernando (60 años, nivel bajo) requirió ayuda para entender cómo suscribirse.
+- La estética cálida y editorial fue valorada positivamente por todos los perfiles.
+
+---
+
+#### Test B — Mejora de Goiko (Caso B)
+
+**Pantallas analizadas:** Landing Page y página de Reservas
+
+**Tareas propuestas:**
+1. Localiza el restaurante Goiko más cercano a tu ubicación.
+2. Realiza una reserva online para 3 personas esta noche.
+3. Consulta el menú y encuentra las opciones vegetarianas disponibles.
+4. Encuentra la vía de contacto para atención al cliente o redes sociales.
+
+**Feedback recogido:**
+- Opinión general media: **4.0 / 7**
+- La localización de restaurantes resultó poco intuitiva para perfiles medios y bajos (Pilar, Nadia). El mapa interactivo no fue encontrado sin ayuda en dos de los cinco casos.
+- El proceso de reserva online presentó demasiados pasos, lo que provocó abandono parcial en Pilar y Nadia.
+- El diseño visual fue valorado como moderno y atractivo, especialmente por Elena y David.
+- Los usuarios más analíticos (David) detectaron inconsistencias en la navegación entre secciones.
+
+---
+
+#### Preguntas de valoración general (escala 1-7)
+
+| | Preguntas | P01 | P02 | P03 | P04 | P05 | P06 | P07 | P08 | P09 | P10 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | ¿Cómo calificarías tu experiencia general usando esta web? | 6 | 6 | 5 | 5 | 3 | 5 | 4 | 3 | 5 | 4 |
+| 2 | ¿Encontraste lo que buscabas fácilmente? | 6 | 6 | 4 | 5 | 3 | 5 | 4 | 2 | 4 | 3 |
+| 3 | ¿Recomendarías esta web a otras personas? | 5 | 6 | 4 | 4 | 3 | 4 | 4 | 3 | 4 | 3 |
+| 4 | ¿La web te resultó atractiva visualmente? | 5 | 6 | 5 | 5 | 4 | 5 | 4 | 3 | 5 | 4 |
+
+**Promedios:**
+- Caso A (NeoQarmita): **4.8 / 7**
+- Caso B (Mejora de Goiko): **4.0 / 7**
+
+#### Conclusión del A/B Testing
+
+Los resultados confirman que el **Caso A (NeoQarmita) es más usable** para el perfil general de usuario, especialmente para personas con competencia digital media o baja. Su navegación intuitiva, jerarquía visual clara y diseño editorial reducen la carga cognitiva y facilitan la consecución de tareas sin ayuda.
+
+El **Caso B (Mejora de Goiko)** presenta un diseño atractivo que funciona bien para usuarios técnicos, pero el proceso de reserva excesivamente largo y la localización de restaurantes poco visible penalizan la experiencia para perfiles menos digitales. La diferencia de 0.8 puntos en valoración general y 11 puntos en SUS refleja que NeoQarmita ofrece una experiencia más accesible y consistente en todos los perfiles.
 
 ### 4.e Aplicación del método Eye Tracking 
 ![Método UX](img/eye-tracking.png)
 ----
 
->>> Indica cómo se diseña el experimento y se reclutan los usuarios. Explica la herramienta / uso de gazerecorder.com u otra similar. Aplíquese únicamente al caso B.
+El experimento de Eye Tracking se ha realizado con la herramienta **[GazeMapping](https://github.com/mgea/gazemapping)**, capturando las pantallas principales de cada diseño con la extensión **FireShot** y definiendo Puntos de Interés (POI) sobre los elementos clave: CTAs, menú de navegación, imágenes hero y formularios. Se ha aplicado a un mínimo de 3 usuarios por caso.
 
+---
 
-![experimento](img/experimentoET.png)  
->>> Cambiar esta img por una de vuestro experimento. El recurso deberá estar subido a la carpeta P4/  
+#### Caso B — Mejora de Goiko
 
->>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
+**Pantallas analizadas:** Landing Page y página de Reservas
+
+**Observaciones principales:**
+
+- En la **Landing Page**, se detecta una concentración de calor intensa en la imagen hero central y en el logotipo. Sin embargo, el botón principal de reserva recibe muy poca atención, al estar ubicado en una posición que se confunde con el resto de la cabecera.
+- En la **página de Reservas**, los usuarios exploraron el formulario de forma errática. El selector de fecha y hora no fue identificado de inmediato, y varios usuarios lo buscaron en la zona inferior de la pantalla antes de encontrarlo en la parte superior.
+- Los iconos de redes sociales del footer fueron ignorados por la totalidad de usuarios.
+- Los perfiles con menor competencia digital (Pilar) mostraron patrones de exploración amplios y sin foco, señal de desorientación en la arquitectura de información.
+
+**Recomendaciones derivadas:**
+- Aumentar el contraste y el tamaño del CTA principal de reserva en la landing.
+- Reposicionar el selector de fecha en una zona más visible o añadir una señal visual que lo destaque.
+- Simplificar el formulario de reserva reduciendo el número de campos visibles en la primera pantalla.
+
+**Mapas de calor — Caso B:**
+
+![Heatmap Caso B — Landing Page](P5/heatmap_B1_landing.png)
+
+![Heatmap Caso B — Página de Reservas](P5/heatmap_B2_reservas.png)
+
+---
+
+#### Caso A — NeoQarmita
+
+**Pantallas analizadas:** Landing Page y Agenda Cultural
+
+**Observaciones principales:**
+
+- En la **Landing Page**, los usuarios fijaron la mirada de forma inmediata en el eslogan central y el botón "¡RESERVA YA!", que muestra la mayor concentración de calor. La doble columna de promociones recibe atención equitativa, lo que valida la distribución visual.
+- En la **Agenda Cultural**, los filtros y el calendario interactivo concentran gran parte de la atención antes que las tarjetas de eventos. Los botones de inscripción son localizados con facilidad gracias al contraste cromático de la terracota sobre fondo crema.
+- Fernando (60 años, nivel bajo) mostró un patrón de lectura más lento pero lineal, lo que indica que la jerarquía tipográfica funciona bien incluso para usuarios con menor destreza digital.
+
+**Mapas de calor — Caso A:**
+
+![Heatmap Caso A — Landing Page](P5/heatmap_A1_landing.png)
+
+![Heatmap Caso A — Agenda Cultural](P5/heatmap_A2_agenda.png)
 
 
 ### 4.f Usability Report de B
 ![Método UX](img/usability-report.png) 
 -----
 
->>> Añadir report de usabilidad para práctica B (la de los compañeros) aportando resultados y valoración de cada debilidad de usabilidad. 
->>> Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
+El informe de usabilidad completo del Caso B (Mejora de Goiko) está disponible en:
 
->>> Complementad el Case Study en su Paso 4 con una Valoración personal del equipo sobre esta tarea
+📄 **[P5/Usability-Report-template.md](P5/Usability-Report-template.md)**
+
+El informe recoge los hallazgos del estudio A/B, el análisis SUS multivariable, las observaciones de Eye Tracking y la auditoría de accesibilidad, con recomendaciones concretas de mejora para el diseño de Mejora de Goiko.
+
+**Valoración personal del equipo:**
+
+El proceso de evaluación cruzada ha sido especialmente enriquecedor. Evaluar un diseño ajeno con metodología estructurada (SUS + Eye Tracking) nos ha obligado a ser objetivos y a detectar patrones que en nuestro propio diseño pasaríamos por alto. El punto más revelador fue comprobar cómo el proceso de reserva del Caso B, que sobre papel parece completo, genera frustración real en usuarios con perfil no técnico. Esta experiencia refuerza la importancia de las pruebas con usuarios reales frente a la evaluación heurística interna.
 
 
 
