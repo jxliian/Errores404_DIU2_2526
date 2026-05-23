@@ -711,6 +711,75 @@ El informe recoge los hallazgos del estudio A/B, el análisis SUS multivariable,
 
 El proceso de evaluación cruzada ha sido especialmente enriquecedor. Evaluar un diseño ajeno con metodología estructurada (SUS + Eye Tracking) nos ha obligado a ser objetivos y a detectar patrones que en nuestro propio diseño pasaríamos por alto. El punto más revelador fue comprobar cómo el proceso de reserva del Caso B, que sobre papel parece completo, genera frustración real en usuarios con perfil no técnico. Esta experiencia refuerza la importancia de las pruebas con usuarios reales frente a la evaluación heurística interna.
 
+### 4.g Evaluación de Accesibilidad — Caso B (Mejora de Goiko)
+![Método UX](img/usabilityReview.png)
+-----
+
+Se ha realizado una auditoría de accesibilidad sobre la web del Caso B ([https://goikomejorado.surge.sh](https://goikomejorado.surge.sh)) utilizando dos herramientas automáticas: **WAVE** y **Google Lighthouse** (escritorio y móvil). El marco de referencia aplicado es **WCAG 2.1 nivel AA**.
+
+---
+
+#### WAVE — Web Accessibility Evaluation Tool
+
+![Resultado WAVE](P5/wave.png)
+
+WAVE no detectó ningún error crítico ni error de contraste, obteniendo una puntuación **AIM de 10/10**. Sin embargo, registró **2 alertas** relevantes:
+
+- **Sin estructura de encabezados** (*No heading structure*): la página no utiliza etiquetas `<h1>`, `<h2>`, etc. de forma jerárquica. Esto impide que los usuarios de lectores de pantalla naveguen por secciones y que los motores de búsqueda identifiquen la jerarquía del contenido.
+- **Sin regiones de página** (*No page regions*): no se han definido landmarks semánticos (`<header>`, `<main>`, `<nav>`, `<footer>`), lo que dificulta la navegación por teclado y con tecnologías asistivas.
+
+Como punto positivo, **el idioma de la página está correctamente definido**, lo que permite a los lectores de pantalla pronunciar el contenido en el idioma correcto.
+
+---
+
+#### Lighthouse — Google PageSpeed Insights
+
+🔗 **[Ver informe completo](https://pagespeed.web.dev/analysis/https-goikomejorado-surge-sh/f74idwafuv?form_factor=mobile&category=performance&category=accessibility&category=best-practices&category=seo&hl=es-419&utm_source=lh-chrome-ext)**
+
+**Escritorio:**
+
+![Lighthouse Escritorio](P5/lightescritorio.png)
+
+| Métrica | Puntuación |
+|---|---|
+| Rendimiento | 66 / 100 |
+| Accesibilidad | 87 / 100 |
+| Recomendaciones | 96 / 100 |
+| SEO | 58 / 100 |
+
+**Móvil:**
+
+![Lighthouse Móvil](P5/lightmovil.png)
+
+| Métrica | Puntuación |
+|---|---|
+| Rendimiento | 69 / 100 |
+| Accesibilidad | 82 / 100 |
+| Recomendaciones | 96 / 100 |
+| SEO | 58 / 100 |
+
+---
+
+#### Análisis por categorías WCAG
+
+| **Categoría** | **Hallazgo** | **Criterio WCAG** | **Impacto** | **Recomendación** |
+|---|---|---|---|---|
+| **Perceptible** | Sin estructura de encabezados (`<h1>`, `<h2>`...) | 1.3.1 — Información y relaciones | Los usuarios con lector de pantalla no pueden identificar la jerarquía de contenido | Añadir etiquetas de encabezado semánticas y jerárquicas en todas las secciones |
+| **Perceptible** | Largest Contentful Paint de 28.3s en móvil | 1.4.4 — Cambio de tamaño del texto | Las imágenes pesadas bloquean la carga del contenido principal, afectando a usuarios con conexión lenta | Optimizar y comprimir imágenes para móvil; usar formatos WebP y lazy loading |
+| **Operable** | Cumulative Layout Shift de 0.243 en escritorio | 2.5.3 — Etiqueta en nombre | El desplazamiento visual durante la carga puede provocar clics accidentales en elementos incorrectos | Reservar espacio explícito para imágenes y elementos cargados de forma asíncrona |
+| **Comprensible** | Sin regiones de página (`<main>`, `<nav>`, `<footer>`) | 1.3.6 — Identificar el propósito | La navegación por teclado o lector de pantalla carece de puntos de referencia | Añadir landmarks HTML5 semánticos en la estructura de la página |
+| **Robusto** | SEO 58/100; sin metadatos estructurados ni etiquetas semánticas | 4.1.1 — Análisis sintáctico | Los agentes de usuario y tecnologías asistivas no pueden interpretar correctamente la estructura del documento | Añadir metaetiquetas descriptivas, `aria-label` en elementos interactivos y estructurar el HTML con roles ARIA |
+
+---
+
+#### Valoración general de accesibilidad
+
+La web de Mejora de Goiko presenta una base accesible aceptable: ausencia de errores críticos de contraste y buen cumplimiento de buenas prácticas (96/100). Sin embargo, los problemas estructurales —falta de encabezados semánticos y de landmarks de página— suponen un incumplimiento del criterio **WCAG 2.1 AA** que penaliza especialmente a usuarios con discapacidad visual que utilizan tecnologías asistivas.
+
+El punto más crítico es el **rendimiento en móvil**: un LCP de 28.3 segundos es inaceptable para un sitio de restauración donde el usuario espera acceso inmediato al menú o a la reserva. Esto, combinado con un SEO de 58/100, indica que el sitio no está optimizado ni para la accesibilidad real ni para la visibilidad en buscadores.
+
+**Puntuación global estimada: 6/10** — Cumple los mínimos técnicos pero requiere mejoras estructurales y de rendimiento para alcanzar el nivel AA de forma completa.
+
 
 
 <br>
