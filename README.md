@@ -660,6 +660,16 @@ El experimento de Eye Tracking se ha realizado con la herramienta **[GazeMapping
 
 ![Heatmap Caso A — Agenda Cultural](P5/heatmap_A2_agenda.png)
 
+**Mapas de calor conjuntos:**
+
+|           Heatmap Conjunto 1           |           Heatmap Conjunto 2           |
+| :------------------------------------: | :------------------------------------: |
+| ![Heatmap Conjunto 1](./P5/heatmapconjunto1.jpg) | ![Heatmap Conjunto 2](./P5/heatmapconjunto2.jpg) |
+
+|           Heatmap Conjunto 3           |           Heatmap Conjunto 4           |
+| :------------------------------------: | :------------------------------------: |
+| ![Heatmap Conjunto 3](./P5/heatmapconjunto3.jpg) | ![Heatmap Conjunto 4](./P5/heatmapconjunto4.jpg) |
+
 ### 4.f Usability Report de B
 
 El informe de usabilidad completo del Caso B (Mejora de Goiko) está disponible en:
