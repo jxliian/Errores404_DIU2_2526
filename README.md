@@ -656,12 +656,6 @@ El experimento de Eye Tracking se ha realizado con la herramienta **[GazeMapping
 
 **Mapas de calor — Caso A:**
 
-![Heatmap Caso A — Landing Page](P5/heatmap_A1_landing.png)
-
-![Heatmap Caso A — Agenda Cultural](P5/heatmap_A2_agenda.png)
-
-**Mapas de calor conjuntos:**
-
 |           Heatmap Conjunto 1           |           Heatmap Conjunto 2           |
 | :------------------------------------: | :------------------------------------: |
 | ![Heatmap Conjunto 1](./P5/heatmapconjunto1.jpg) | ![Heatmap Conjunto 2](./P5/heatmapconjunto2.jpg) |
