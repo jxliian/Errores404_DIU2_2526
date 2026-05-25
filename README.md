@@ -617,7 +617,7 @@ El experimento de Eye Tracking se ha realizado con la herramienta **[GazeMapping
 
 #### Caso B — Mejora de Goiko
 
-**Pantallas analizadas:** Landing Page y página de Reservas
+**Pantallas analizadas:** Landing Page, página de Reservas, Página de pago, Página de Confirmación, Página de personalización de hamburguesa.
 
 **Observaciones principales:**
 
@@ -646,7 +646,7 @@ El experimento de Eye Tracking se ha realizado con la herramienta **[GazeMapping
 
 #### Caso A — NeoQarmita
 
-**Pantallas analizadas:** Landing Page y Agenda Cultural
+**Pantallas analizadas:** Landing Page, Agenda Cultural, Página de novedades y Tienda
 
 **Observaciones principales:**
 
