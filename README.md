@@ -674,9 +674,13 @@ El experimento de Eye Tracking se ha realizado con la herramienta **[GazeMapping
 
 **Mapas de calor — Caso B:**
 
-![Heatmap Caso B — Landing Page](P5/heatmap_B1_landing.png)
+| Landing Page | Heatmap 1 | Heatmap 2 |
+| :---: | :---: | :---: |
+| ![Landing Page](./P5/heatmapLP.jpg) | ![Heatmap 1](./P5/heatmap1.jpg) | ![Heatmap 2](./P5/heatmap2.jpg) |
 
-![Heatmap Caso B — Página de Reservas](P5/heatmap_B2_reservas.png)
+| Heatmap 3 | Heatmap 4 | Heatmap 5 |
+| :---: | :---: | :---: |
+| ![Heatmap 3](./P5/heatmap3.jpg) | ![Heatmap 4](./P5/heatmap4.jpg) | ![Heatmap 5](./P5/heatmap5.jpg) |
 
 ---
 
