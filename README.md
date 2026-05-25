@@ -526,10 +526,14 @@ Para calcular la valoración numérica y la etiqueta lingüística resultante us
 
 **Promedio por caso:**
 
-- **Caso A (NeoQarmita): 73.0** → *Bueno*
-- **Caso B (Mejora de Goiko): 62.0** → *Aceptable*
+- **Caso A (NeoQarmita): 73.0** → *Bueno* · Grade B · Percentil 3º
+- **Caso B (Mejora de Goiko): 62.0** → *Aceptable* · Grade D · Percentil 1º
 
-El Caso A obtiene una valoración consistentemente más alta gracias a su navegación intuitiva y estructura visual clara. El Caso B presenta mayor varianza: usuarios técnicos como David (67.5) lo navegan con relativa soltura, pero perfiles con menor competencia digital como Pilar (47.5) encuentran barreras notables, especialmente en el proceso de reserva y en la experiencia desde dispositivos táctiles.
+**Análisis multivariable (sus.mixality.de):**
+
+![Análisis SUS Multivariable](P5/sus1.png)
+
+El análisis multivariable confirma la diferencia entre ambos diseños. NeoQarmita (media 73, SD 10.81) se sitúa en la categoría **Good** con una aceptabilidad **Acceptable**, mientras que Mejora de Goiko (media 62, SD 9.75) queda en **OK** con aceptabilidad **Marginal**. La mayor varianza de NeoQarmita refleja la diferencia entre perfiles técnicos (puntuaciones altas) y usuarios con menor competencia digital como Fernando (55), que arrastra la media hacia abajo. El Caso B presenta una dispersión más contenida pero centrada en una franja de usabilidad inferior, especialmente penalizado por los perfiles con menor competencia digital como Pilar (47.5) en el proceso de reserva.
 
 ### 4.d A/B Testing
 
