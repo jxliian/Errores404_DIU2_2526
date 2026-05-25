@@ -634,13 +634,13 @@ El experimento de Eye Tracking se ha realizado con la herramienta **[GazeMapping
 
 **Mapas de calor — Caso B:**
 
-|           Landing Page           |           Heatmap 1           |           Heatmap 2           |
+| Landing Page (Escritorio) | Landing Page (Móvil) | Personaliza tu Burger |
 | :-------------------------------: | :---------------------------: | :---------------------------: |
-| ![Landing Page](./P5/heatmapLP.jpg) | ![Heatmap 1](./P5/heatmap1.jpg) | ![Heatmap 2](./P5/heatmap2.jpg) |
+| ![Landing Escritorio](./P5/heatmapLP.jpg) | ![Landing Móvil](./P5/heatmap1.jpg) | ![Personalizar](./P5/heatmap2.jpg) |
 
-|           Heatmap 3           |           Heatmap 4           |           Heatmap 5           |
+| Carrito | Pago | Pago Finalizado |
 | :---------------------------: | :---------------------------: | :---------------------------: |
-| ![Heatmap 3](./P5/heatmap3.jpg) | ![Heatmap 4](./P5/heatmap4.jpg) | ![Heatmap 5](./P5/heatmap5.jpg) |
+| ![Carrito](./P5/heatmap3.jpg) | ![Pago](./P5/heatmap4.jpg) | ![Pago Finalizado](./P5/heatmap5.jpg) |
 
 ---
 
@@ -656,13 +656,13 @@ El experimento de Eye Tracking se ha realizado con la herramienta **[GazeMapping
 
 **Mapas de calor — Caso A:**
 
-|           Heatmap Conjunto 1           |           Heatmap Conjunto 2           |
+| Landing Page | Agenda Cultural |
 | :------------------------------------: | :------------------------------------: |
-| ![Heatmap Conjunto 1](./P5/heatmapconjunto1.jpg) | ![Heatmap Conjunto 2](./P5/heatmapconjunto2.jpg) |
+| ![Landing NeoQarmita](./P5/heatmapconjunto2.jpg) | ![Agenda NeoQarmita](./P5/heatmapconjunto1.jpg) |
 
-|           Heatmap Conjunto 3           |           Heatmap Conjunto 4           |
+| Novedades | Tienda |
 | :------------------------------------: | :------------------------------------: |
-| ![Heatmap Conjunto 3](./P5/heatmapconjunto3.jpg) | ![Heatmap Conjunto 4](./P5/heatmapconjunto4.jpg) |
+| ![Novedades NeoQarmita](./P5/heatmapconjunto3.jpg) | ![Tienda NeoQarmita](./P5/heatmapconjunto4.jpg) |
 
 ### 4.f Usability Report de B
 
@@ -780,6 +780,18 @@ La documentación completa del proceso (alternativas evaluadas, stack tecnológi
 
 ## Conclusiones finales & Valoración de las prácticas
 
->>> Opinión FINAL del proceso de desarrollo de diseño siguiendo metodología UX y valoración (positiva /negativa) de los resultados obtenidos. ¿Qué se puede mejorar? Recuerda que este tipo de texto se debe eliminar del template que se os proporciona
->>>
->>
+El proceso completo de diseño UX seguido a lo largo de las prácticas ha sido una experiencia formativa muy completa. Partir de un análisis real de un negocio local como La Qarmita, con sus problemas concretos de presencia digital, nos ha obligado a aplicar cada metodología con criterio propio en lugar de hacerlo de forma mecánica.
+
+**Puntos fuertes del proceso:**
+
+La fase de investigación (P1) fue especialmente útil para anclar todas las decisiones de diseño posteriores en necesidades reales. Las personas y los journey maps nos ayudaron a mantener el foco en el usuario durante el rediseño, evitando añadir funcionalidades por capricho. El Design System desarrollado en P3 demostró su valor en la fase de exportación a React (P4): la coherencia entre tokens de color, tipografía y componentes facilitó enormemente la traducción del diseño a código.
+
+La práctica de evaluación (P5) ha sido quizás la más reveladora. Evaluar el diseño de otro equipo con metodología estructurada —SUS, A/B testing y Eye Tracking— nos ha dado una perspectiva que es difícil obtener evaluando el propio trabajo. Los mapas de calor sobre Mejora de Goiko mostraron problemas que no habrían sido detectables con una revisión heurística, como la invisibilidad del CTA de reserva en la landing o la dispersión de atención en el formulario de pago.
+
+**Aspectos a mejorar:**
+
+La principal limitación del proceso ha sido la dificultad para realizar pruebas con usuarios reales en las fases tempranas de diseño. Contar con feedback de usuarios antes de desarrollar el prototipo de alta fidelidad habría permitido corregir decisiones de arquitectura de información que después resultan costosas de cambiar. En futuras iteraciones aplicaríamos tests de usabilidad ya desde los wireframes de baja fidelidad.
+
+Por otro lado, el uso de herramientas de IA generativa (Figma Make, Foundation Studio) aceleró significativamente la producción de componentes y la exportación a código, pero requirió múltiples rondas de refinamiento para ajustar los resultados a los criterios de accesibilidad y jerarquía visual. La IA es una herramienta potente, pero el criterio de diseño sigue siendo responsabilidad del equipo.
+
+En conjunto, el resultado final supera con creces la web original de La Qarmita y sienta una base sólida tanto en diseño como en implementación técnica para una hipotética continuación del proyecto.
