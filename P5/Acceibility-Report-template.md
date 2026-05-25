@@ -1,126 +1,125 @@
-# Accesibility Report (template)
-
-<img src="https://img.uxcel.com/cdn-cgi/image/format=auto/practices/wcag-principles-overview-1742315821212/a-1742315821212-2x.jpg" alt="usability Download png" style="height:200px" />
+# Accessibility Report
 
 ## 1. Ficha Técnica del Informe
 
-Antes de entrar en detalles, define el alcance.
+- **Nombre del proyecto:** Mejora de Goiko — Caso B · [https://goikomejorado.surge.sh](https://goikomejorado.surge.sh)
+- **Repositorio:** [https://github.com/ClaudioDevv/UX_CaseStudy](https://github.com/ClaudioDevv/UX_CaseStudy)
+- **Equipo evaluador:** DIU2.Errores404 — Julian Carrion Tovar · Miguel Angel Luque Gomez
+- **Normativa de referencia:** WCAG 2.1 Nivel AA · Norma UNE-EN 301549
+- **Herramientas utilizadas:** Google Lighthouse (PageSpeed Insights), WAVE Web Accessibility Evaluation Tool
+- **Fecha de la auditoría:** Mayo 2026
 
-- **Nombre del proyecto:** (Diseño A o Diseño B).
-- **Normativa de referencia:** WCAG 2.1 o 2.2 (Nivel AA).
-- **Herramientas utilizadas:** (Ej: Lighthouse, WAVE, axe DevTools).
-- **Fecha de la auditoría:** El estado de la web cambia, es vital poner fecha.
-
-
-
-NOTA: El marco normativo para la web, el estándar es el **WCAG (Web Content Accessibility Guidelines)**.
-
-- **Nivel de conformidad:** Generalmente se busca el **AA** (el estándar legal para sitios públicos y empresas), Versión  **WCAG 2.1 o 2.2**. Referencia: norma **UNE-EN 301549** 
-
-
+---
 
 ## 2. Puntuaciones Globales (Métricas Automáticas)
 
-Presenta una visión general rápida. Usa los "scores" que te dan las herramientas.
+### Google Lighthouse
 
-- **Lighthouse Accessibility Score:** (Ej: 85/100).
-- **WAVE Summary:** Número de errores críticos, alertas y errores de contraste.
+![Lighthouse Escritorio](lightescritorio.png)
+*Escritorio*
 
+![Lighthouse Móvil](lightmovil.png)
+*Móvil*
 
+| Métrica          | Escritorio | Móvil  |
+| :--------------- | :--------: | :----: |
+| Rendimiento      | 66 / 100   | 69 / 100 |
+| Accesibilidad    | 87 / 100   | 82 / 100 |
+| Buenas prácticas | 96 / 100   | 96 / 100 |
+| SEO              | 58 / 100   | 58 / 100 |
+
+### WAVE — Web Accessibility Evaluation Tool
+
+![Resultado WAVE](wave.png)
+
+| Indicador          | Resultado       |
+| :----------------- | :-------------- |
+| Errores críticos   | 0               |
+| Errores contraste  | 0               |
+| Alertas            | 2               |
+| AIM Score          | **10 / 10**     |
+
+---
 
 ## 3. Análisis por Principios (POUR)
 
-Para que el informe sea profesional, agrupa los fallos según los 4 principios de la accesibilidad:
-
-<img src="https://cdn.sanity.io/images/r115idoc/production/e745ae232e5e6760c1392354021aed4eecc4627d-1920x1080.png" alt="usability Download png" style="height:200px" />
-
 ### A. Perceptible
 
-- **Hallazgo:** "Falta de texto alternativo en imágenes decorativas".
-- **Impacto:** Los usuarios con discapacidad visual no reciben contexto de la imagen.
-- **Solución:** Añadir atributo `alt=""` o una descripción funcional.
+**Hallazgo 1 — Sin estructura de encabezados**
 
+- **Criterio WCAG incumplido:** 1.3.1 — Información y relaciones
+- **Herramienta:** WAVE (alerta: *No heading structure*)
+- **Impacto:** Los usuarios con lector de pantalla no pueden identificar la jerarquía del contenido ni navegar por secciones. Los motores de búsqueda tampoco pueden determinar la estructura semántica de la página.
+- **Recomendación:** Añadir etiquetas `<h1>`, `<h2>`, `<h3>` jerárquicas en todas las secciones del documento.
 
+**Hallazgo 2 — LCP de 28.3s en móvil**
+
+- **Criterio WCAG incumplido:** 1.4.4 — Cambio de tamaño del texto (rendimiento perceptivo)
+- **Herramienta:** Lighthouse Móvil (Largest Contentful Paint: 28.3s)
+- **Impacto:** Las imágenes de gran tamaño sin optimizar bloquean la carga del contenido principal. En conexiones estándar o lentas, el usuario no puede percibir el contenido durante casi 30 segundos, lo que equivale a una barrera de acceso real.
+- **Recomendación:** Convertir imágenes a formato WebP, implementar lazy loading y definir dimensiones explícitas en los elementos visuales.
 
 ### B. Operable
 
-- **Hallazgo:** "Indicador de foco invisible en el menú".
-- **Impacto:** Un usuario que navega con teclado no sabe dónde está situado.
-- **Solución:** Definir un estilo CSS para `:focus` con alto contraste.
+**Hallazgo 3 — CLS de 0.243 en escritorio**
 
-
+- **Criterio WCAG incumplido:** 2.5.3 — Etiqueta en nombre (desplazamiento de contenido)
+- **Herramienta:** Lighthouse Escritorio (Cumulative Layout Shift: 0.243)
+- **Impacto:** El desplazamiento visual durante la carga provoca que los usuarios hagan clic en elementos incorrectos de forma accidental. Para usuarios con control motor reducido, este comportamiento es especialmente perjudicial.
+- **Recomendación:** Reservar espacio explícito (atributos `width` y `height`) en todas las imágenes y elementos cargados de forma asíncrona.
 
 ### C. Comprensible
 
-- **Hallazgo:** "Los mensajes de error de formulario no son claros".
-- **Impacto:** El usuario no sabe cómo corregir el campo para avanzar.
-- **Solución:** Vincular el error con el input mediante `aria-describedby`.
+**Hallazgo 4 — Sin regiones de página definidas**
 
+- **Criterio WCAG incumplido:** 1.3.6 — Identificar el propósito
+- **Herramienta:** WAVE (alerta: *No page regions*)
+- **Impacto:** La ausencia de landmarks semánticos (`<header>`, `<main>`, `<nav>`, `<footer>`) impide que los usuarios de tecnologías asistivas naveguen por puntos de referencia. Un usuario ciego no puede saltar directamente al contenido principal ni al menú de navegación.
+- **Recomendación:** Estructurar el HTML con landmarks semánticos en todos los bloques principales de la página.
 
+**Punto positivo:** El idioma de la página está correctamente declarado (`lang="es"`), lo que permite a los lectores de pantalla pronunciar el contenido en castellano sin configuración adicional.
 
 ### D. Robusto
 
-- **Hallazgo:** "IDs duplicados en el código HTML".
-- **Impacto:** Los lectores de pantalla pueden saltarse contenido o confundir elementos.
-- **Solución:** Validar el HTML y asegurar identificadores únicos.
+**Hallazgo 5 — SEO 58/100 y ausencia de metadatos estructurados**
 
+- **Criterio WCAG incumplido:** 4.1.1 — Análisis sintáctico
+- **Herramienta:** Lighthouse (SEO: 58/100)
+- **Impacto:** Los agentes de usuario y tecnologías asistivas no pueden interpretar correctamente la estructura del documento. La ausencia de metaetiquetas descriptivas y atributos `aria-label` en los elementos interactivos reduce la compatibilidad con software de apoyo.
+- **Recomendación:** Añadir `<title>` descriptivo, `<meta name="description">`, `aria-label` en botones y enlaces sin texto visible, y datos estructurados JSON-LD para buscadores.
 
-
-El informe deberá organizar los resultados en esta 4 categorias: 
-
-| **Categoría**    | **Qué analizar (Ejemplos)**                                  |
-| ---------------- | ------------------------------------------------------------ |
-| **Perceptible**  | Contraste de colores, texto alternativo en imágenes (`alt`), subtítulos. |
-| **Operable**     | Navegación por teclado, tiempo suficiente para leer, evitar destellos. |
-| **Comprensible** | Idioma de la página definido, formularios claros, errores fáciles de corregir. |
-| **Robusto**      | Código limpio (HTML válido) para que los lectores de pantalla funcionen. |
-
-Un ejemplo de resultado sería: 
-
-* **Perceptible:**  
-  * Error detectado: **Falta de contraste en el botón de reservar**.
-  * **Criterio WCAG incumplido:** "Criterio 1.4.3 - Contraste mínimo".
-  * **Impacto:** "Los usuarios con visión baja no pueden identificar la acción principal".
-  * **Recomendación de mejora:** "Cambiar el color del texto de gris claro a negro (#000000)".
-
-El informe debería dar una **valoracion general de accesibilidad** e incluir al menos **2-3 resultados identificados y clasificados adecuadamente**. 
-
-
-
-
+---
 
 ## 4. Tabla de Hallazgos y Prioridades
 
-Organiza los errores técnicos de forma que el equipo sepa qué arreglar primero.
+| **ID**     | **Prioridad** | **Criterio WCAG**              | **Error detectado**                              | **Recomendación técnica**                              |
+| :--------- | :------------ | :----------------------------- | :----------------------------------------------- | :----------------------------------------------------- |
+| **ACC-01** | **Alta**      | 1.3.1 Información y relaciones | Sin estructura de encabezados `<h1>`/`<h2>`       | Añadir jerarquía de headings semánticos                |
+| **ACC-02** | **Alta**      | 1.4.4 Cambio de tamaño         | LCP 28.3s en móvil por imágenes sin optimizar    | Convertir a WebP, aplicar lazy loading                 |
+| **ACC-03** | **Alta**      | 2.5.3 Etiqueta en nombre       | CLS 0.243 en escritorio                           | Reservar `width`/`height` en imágenes y elementos async |
+| **ACC-04** | **Media**     | 1.3.6 Identificar el propósito | Sin landmarks `<header>`, `<main>`, `<footer>`    | Añadir regiones semánticas HTML5                       |
+| **ACC-05** | **Media**     | 4.1.1 Análisis sintáctico      | SEO 58/100; sin `<title>` ni `aria-label`         | Metaetiquetas descriptivas y roles ARIA                |
 
-| **ID**     | **Prioridad** | **Criterio WCAG**          | **Error detectado**                  | **Recomendación Técnica**     |
-| ---------- | ------------- | -------------------------- | ------------------------------------ | ----------------------------- |
-| **ACC-01** | **Crítica**   | 1.4.3 Contraste            | Texto gris sobre fondo blanco.       | Cambiar a color #333333.      |
-| **ACC-02** | **Alta**      | 1.1.1 Contenido no textual | Icono de "Cerrar" sin etiqueta.      | Añadir `aria-label="Cerrar"`. |
-| **ACC-03** | **Media**     | 2.4.1 Evitar bloques       | No hay enlace "Saltar al contenido". | Implementar un *Skip Link*.   |
-
-
-
-
-
-
+---
 
 ## 5. Conclusiones y Declaración de Conformidad
 
-Resume el estado actual:
+### Estado actual
 
-- **¿Es el sitio accesible?** (Ej: "El sitio cumple parcialmente con el nivel AA, pero presenta barreras críticas en el proceso de compra").
-- **Próximos pasos:** Lista de 3 acciones inmediatas para mejorar la puntuación.
+El sitio **cumple parcialmente con el nivel AA de WCAG 2.1**. La ausencia de errores críticos de contraste y el buen cumplimiento de buenas prácticas (96/100) suponen una base técnica aceptable. Sin embargo, los problemas estructurales —falta de encabezados semánticos y de landmarks de página— incumplen criterios AA que penalizan directamente a usuarios con discapacidad visual que utilizan lectores de pantalla.
 
+**Puntuación global estimada: 6/10**
 
+El punto más crítico es el **rendimiento en móvil**: un LCP de 28.3 segundos es inaceptable para un sitio de restauración donde el usuario espera acceso inmediato al menú o al proceso de reserva. Combinado con un SEO de 58/100, el sitio no está optimizado ni para la accesibilidad real ni para la visibilidad en buscadores.
 
+### Próximos pasos inmediatos
 
+1. **Añadir estructura de encabezados** (`<h1>` único por página, `<h2>` por sección) y landmarks HTML5 semánticos — cambio estructural de bajo coste y alto impacto en accesibilidad.
+2. **Optimizar imágenes** para móvil (formato WebP, lazy loading, dimensiones explícitas) — reduce el LCP de 28.3s a menos de 3s y mejora drásticamente la experiencia en dispositivos móviles.
+3. **Añadir `aria-label`** en todos los botones interactivos sin texto visible y una metaetiqueta `<title>` descriptiva — mejora compatibilidad con tecnologías asistivas y sube el SEO por encima de 80/100.
 
+Con estas tres acciones, la puntuación de accesibilidad en Lighthouse subiría previsiblemente de 82–87/100 a más de 90/100 en ambas plataformas, y el sitio alcanzaría el cumplimiento completo del nivel AA de WCAG 2.1.
 
+---
 
-
-
-
-
-
-
+*Informe elaborado por el equipo DIU2.Errores404 — Asignatura Diseño de Interfaces de Usuario, Universidad de Granada, curso 2025/26.*
