@@ -1,26 +1,24 @@
 # Práctica 5: Evaluación — Accesibilidad y Pruebas de Usabilidad A/B Testing
 
-**Equipo:** DIU2.Errores404 · Curso 2025/26  
-**Caso A evaluado:** NeoQarmita — [Web en producción](https://errores404-laqarmita.surge.sh)  
+**Equipo:** DIU2.Errores404 · Curso 2025/26
+**Caso A evaluado:** NeoQarmita — [Web en producción](https://errores404-laqarmita.surge.sh)
 **Caso B evaluado:** Mejora de Goiko — [Repositorio](https://github.com/ClaudioDevv/UX_CaseStudy) · [Web en producción](https://goikomejorado.surge.sh)
 
 ---
 
 ## Entregables (25% cada uno)
 
-| Entregable | Archivo | Estado |
-|---|---|---|
-| Reclutamiento de usuarios + propuesta A/B | [Datos_Usuarios.md](Datos_Usuarios.md) | ✅ |
-| Cuestionario SUS | [Cuestionario_SUS.md](Cuestionario_SUS.md) · [Tally](https://tally.so/r/KYaJMk) | ✅ |
-| Eye Tracking (heatmaps) | Ver sección abajo | ✅ |
-| Usability Report | [Usability-Report-template.md](Usability-Report-template.md) | ✅ |
-| Accessibility Report | [Acceibility-Report-template.md](Acceibility-Report-template.md) | ✅ |
+| Entregable                                | Archivo                                                                    | Estado |
+| ----------------------------------------- | -------------------------------------------------------------------------- | ------ |
+| Reclutamiento de usuarios + propuesta A/B | [Datos_Usuarios.md](Datos_Usuarios.md)                                        | ✅     |
+| Cuestionario SUS                          | [Cuestionario_SUS.md](Cuestionario_SUS.md) · [Tally](https://tally.so/r/KYaJMk) | ✅     |
+| Eye Tracking (heatmaps)                   | Ver sección abajo                                                         | ✅     |
+| Usability Report                          | [Usability-Report.md](Usability-Report.md) · [PDF](Usability-Report.pdf)      | ✅     |
+| Accessibility Report                      | [Acceibility-Report-template.md](Acceibility-Report-template.md)              | ✅     |
 
 ---
 
 ## 1. Reclutamiento de usuarios
-
-📄 [Datos_Usuarios.md](Datos_Usuarios.md) — Tabla demográfica, tareas realizadas y respuestas SUS de los 10 participantes.
 
 📋 [Cuestionario_SUS.md](Cuestionario_SUS.md) — Estructura del formulario de evaluación.
 
@@ -30,7 +28,7 @@
 
 ## 2. Eye Tracking — Mapas de Calor
 
-Herramienta utilizada: **[GazeMapping](https://github.com/mgea/gazemapping)**  
+Herramienta utilizada: **[GazeMapping](https://github.com/mgea/gazemapping)**
 Capturas realizadas con la extensión **FireShot** para Chrome.
 
 ---
@@ -105,18 +103,15 @@ Los filtros de categoría y el buscador reciben atención temprana. Los producto
 
 ## 3. Cuestionario SUS — Resultados
 
-| Caso | Usuarios | SUS medio | Valoración |
-|---|---|---|---|
-| A — NeoQarmita | P01–P05 | **73.0** | Bueno |
-| B — Mejora de Goiko | P06–P10 | **62.0** | Aceptable |
+| Caso                 | Usuarios | SUS medio      | Valoración |
+| -------------------- | -------- | -------------- | ----------- |
+| A — NeoQarmita      | P01–P05 | **73.0** | Bueno       |
+| B — Mejora de Goiko | P06–P10 | **62.0** | Aceptable   |
 
-📄 Datos completos: [Datos_Usuarios.md](Datos_Usuarios.md)
-
----
 
 ## 4. Usability Report
 
-📄 [Usability-Report-template.md](Usability-Report-template.md)
+📄 [Usability-Report.md](Usability-Report.md) · 📥 [Usability-Report.pdf](Usability-Report.pdf)
 
 Informe centrado en el **Caso B (Mejora de Goiko)** con hallazgos del estudio A/B, análisis SUS, Eye Tracking y auditoría de accesibilidad.
 
@@ -128,11 +123,11 @@ Informe centrado en el **Caso B (Mejora de Goiko)** con hallazgos del estudio A/
 
 Auditoría de accesibilidad del Caso B con WAVE y Lighthouse. Puntuaciones:
 
-| Herramienta | Resultado |
-|---|---|
-| WAVE | 0 errores · 2 alertas · AIM 10/10 |
+| Herramienta           | Resultado                                  |
+| --------------------- | ------------------------------------------ |
+| WAVE                  | 0 errores · 2 alertas · AIM 10/10        |
 | Lighthouse Escritorio | Accesibilidad 87/100 · Rendimiento 66/100 |
-| Lighthouse Móvil | Accesibilidad 82/100 · Rendimiento 69/100 |
+| Lighthouse Móvil     | Accesibilidad 82/100 · Rendimiento 69/100 |
 
 ![WAVE](wave.png)
 ![Lighthouse Escritorio](lightescritorio.png)
