@@ -477,7 +477,7 @@ Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS*
 - 📋 **Cuestionario online (Tally):** [https://tally.so/r/KYaJMk](https://tally.so/r/KYaJMk)
 - 📄 **Estructura del cuestionario (Markdown):** [P5/Cuestionario_SUS.md](P5/Cuestionario_SUS.md)
 
-Para calcular la valoración numérica y la etiqueta lingüística resultante usamos la [hoja de cálculo SUS](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Para más información sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf).
+Para calcular la valoración numérica y la etiqueta lingüística resultante usamos **[SUS Tools](https://sus.tools/)** y el análisis multivariable con **[sus.mixality.de](https://sus.mixality.de/)**. Para más información sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf).
 
 #### Usuarios Test A — NeoQarmita (P01, P02, P03, P04, P05)
 
