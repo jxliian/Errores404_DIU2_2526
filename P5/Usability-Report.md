@@ -43,13 +43,21 @@ Somos un equipo de la asignatura Diseño de Interfaces de Usuario (DIU), curso 2
 
 Se ha realizado un estudio entre-sujetos con **5 usuarios** asignados al Caso B (Mejora de Goiko). La muestra recoge un rango diverso de edades, niveles de competencia digital y dispositivos de acceso, para detectar problemas de usabilidad en distintos perfiles.
 
-| Usuario        | Sexo/Edad | Ocupación    | Exp. TIC | Personalidad | Plataforma | Posibles situaciones conflictivas                                          |
-| :------------- | :-------- | :----------- | :------- | :----------- | :--------- | :------------------------------------------------------------------------- |
-| P06 — Elena    | M / 24    | Estudiante   | Alta     | Comparativa  | Portátil   | Puede comparar inconscientemente con otras webs de restaurantes similares. |
-| P07 — David    | H / 31    | Desarrollador | Alta    | Analítico    | Portátil   | Puede frustrarse si detecta problemas técnicos o de rendimiento.           |
-| P08 — Pilar    | M / 52    | Usuario final | Baja    | Cautelosa    | Tablet     | Puede abandonar el flujo de reserva si hay demasiados pasos.               |
-| P09 — Roberto  | H / 35    | Usuario final | Media   | Práctico     | Sobremesa  | Puede tener dificultades si la búsqueda de restaurante no es intuitiva.    |
-| P10 — Nadia    | M / 21    | Estudiante   | Media    | Visual       | Móvil      | Puede perder interés si la web no está optimizada para móvil.              |
+| Usuario       | Sexo/Edad | Ocupación     | Exp. TIC | Personalidad | Plataforma |
+| :------------ | :-------- | :------------ | :------- | :----------- | :--------- |
+| P06 — Elena   | M / 24    | Estudiante    | Alta     | Comparativa  | Portátil   |
+| P07 — David   | H / 31    | Desarrollador | Alta     | Analítico    | Portátil   |
+| P08 — Pilar   | M / 52    | Usuario final | Baja     | Cautelosa    | Tablet     |
+| P09 — Roberto | H / 35    | Usuario final | Media    | Práctico     | Sobremesa  |
+| P10 — Nadia   | M / 21    | Estudiante    | Media    | Visual       | Móvil      |
+
+**Posibles situaciones conflictivas por usuario:**
+
+- **P06 Elena:** Puede comparar inconscientemente con otras webs de restaurantes similares.
+- **P07 David:** Puede frustrarse si detecta problemas técnicos o de rendimiento.
+- **P08 Pilar:** Puede abandonar el flujo de reserva si hay demasiados pasos.
+- **P09 Roberto:** Puede tener dificultades si la búsqueda de restaurante no es intuitiva.
+- **P10 Nadia:** Puede perder interés si la web no está optimizada para móvil.
 
 - **Edad media:** 32.6 años  
 - **Nivel digital medio:** Medio-Alto (2 Alta, 2 Media, 1 Baja)  
@@ -194,13 +202,25 @@ Como punto positivo, el idioma de la página está correctamente definido, lo qu
 
 ### Análisis por categorías WCAG 2.1
 
-| **Categoría**    | **Hallazgo**                                                  | **Criterio WCAG**               | **Impacto**                                                                                           | **Recomendación**                                                                                        |
-| :--------------- | :------------------------------------------------------------ | :------------------------------ | :---------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| **Perceptible**  | Sin estructura de encabezados (`<h1>`, `<h2>`...)             | 1.3.1 — Información y relaciones | Los usuarios con lector de pantalla no pueden identificar la jerarquía de contenido                   | Añadir etiquetas de encabezado semánticas y jerárquicas en todas las secciones                           |
-| **Perceptible**  | LCP de 28.3s en móvil                                         | 1.4.4 — Cambio de tamaño        | Las imágenes pesadas bloquean la carga del contenido principal en conexiones estándar                 | Optimizar imágenes para móvil; usar formatos WebP y lazy loading                                         |
-| **Operable**     | CLS de 0.243 en escritorio                                    | 2.5.3 — Etiqueta en nombre      | Desplazamiento visual durante la carga que puede provocar clics accidentales en elementos incorrectos | Reservar espacio explícito para imágenes y elementos cargados de forma asíncrona                         |
-| **Comprensible** | Sin regiones de página (`<main>`, `<nav>`, `<footer>`)        | 1.3.6 — Identificar el propósito | La navegación por teclado o lector de pantalla carece de puntos de referencia                         | Añadir landmarks HTML5 semánticos en la estructura de la página                                          |
-| **Robusto**      | SEO 58/100; sin metadatos estructurados ni etiquetas semánticas | 4.1.1 — Análisis sintáctico    | Agentes de usuario y tecnologías asistivas no pueden interpretar correctamente la estructura          | Añadir metaetiquetas descriptivas, `aria-label` en elementos interactivos y estructurar el HTML con ARIA |
+**[Perceptible — WCAG 1.3.1]** Sin estructura de encabezados (`<h1>`, `<h2>`...)  
+*Impacto:* Los usuarios con lector de pantalla no pueden identificar la jerarquía de contenido.  
+*Recomendación:* Añadir etiquetas de encabezado semánticas y jerárquicas en todas las secciones.
+
+**[Perceptible — WCAG 1.4.4]** LCP de 28.3s en móvil  
+*Impacto:* Las imágenes pesadas bloquean la carga del contenido principal en conexiones estándar.  
+*Recomendación:* Optimizar imágenes para móvil; usar formatos WebP y lazy loading.
+
+**[Operable — WCAG 2.5.3]** CLS de 0.243 en escritorio  
+*Impacto:* Desplazamiento visual durante la carga que puede provocar clics accidentales.  
+*Recomendación:* Reservar espacio explícito para imágenes y elementos cargados de forma asíncrona.
+
+**[Comprensible — WCAG 1.3.6]** Sin regiones de página (`<main>`, `<nav>`, `<footer>`)  
+*Impacto:* La navegación por teclado o lector de pantalla carece de puntos de referencia.  
+*Recomendación:* Añadir landmarks HTML5 semánticos en la estructura de la página.
+
+**[Robusto — WCAG 4.1.1]** SEO 58/100; sin metadatos estructurados ni etiquetas semánticas  
+*Impacto:* Los agentes de usuario y tecnologías asistivas no pueden interpretar correctamente la estructura.  
+*Recomendación:* Añadir metaetiquetas descriptivas, `aria-label` en elementos interactivos y estructurar el HTML con roles ARIA.
 
 **Valoración global de accesibilidad: 6/10** — Cumple los mínimos técnicos (sin errores críticos de contraste) pero requiere mejoras estructurales y de rendimiento para alcanzar el nivel AA de forma completa. El punto más crítico es el LCP de 28.3s en móvil, inaceptable para un sitio de restauración donde el usuario espera acceso inmediato al menú o a la reserva.
 
@@ -220,18 +240,31 @@ Como punto positivo, el idioma de la página está correctamente definido, lo qu
 
 **Valoración general media:** 4.0 / 7
 
-### Tabla de recomendaciones priorizadas
+### Recomendaciones priorizadas
 
-| **Prioridad**      | **Hallazgo**                                                                                         | **Recomendación de Mejora**                                                                                                     |
-| :----------------- | :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| **Alta (Crítica)** | El CTA de reserva en la Landing Page es ignorado por todos los usuarios (Eye Tracking).              | Aumentar contraste, tamaño y posición del botón de reserva; destacarlo visualmente sobre el hero con color de alto contraste.   |
-| **Alta (Crítica)** | El flujo de reserva/pago tarda una media de 78s y genera abandono en usuarios con bajo nivel digital. | Simplificar el formulario de reserva: reducir campos visibles en la primera pantalla y dividir el proceso en pasos numerados.   |
-| **Alta (Crítica)** | LCP de 28.3s en móvil (Lighthouse); el sitio no carga a tiempo para usuarios con conexión estándar. | Comprimir y servir imágenes en formato WebP; implementar lazy loading y caché de recursos estáticos.                             |
-| **Media**          | Sin estructura de encabezados (`<h1>`, `<h2>`) ni landmarks HTML5 semánticos (WAVE).                | Añadir jerarquía de encabezados y landmarks `<header>`, `<main>`, `<nav>`, `<footer>` para cumplir WCAG 2.1 AA.                |
-| **Media**          | La sección de elección de salsas está ubicada al final del flujo, generando 9 clics medios.          | Reposicionar la personalización de ingredientes antes del carrito; mostrar las opciones de forma más visual y accesible.         |
-| **Media**          | CLS de 0.243 en escritorio provoca clics accidentales durante la carga.                              | Reservar espacio explícito (height/width) en los elementos de imagen cargados de forma asíncrona.                               |
-| **Baja**           | Los iconos de redes sociales del footer son ignorados por todos los usuarios.                         | Acompañar los iconos con etiquetas de texto o integrar el bloque de redes sociales en una sección más visible de la página.     |
-| **Baja**           | SEO de 58/100; falta de metaetiquetas descriptivas y etiquetas semánticas.                           | Añadir `<title>`, `<meta description>`, `aria-label` en botones interactivos y datos estructurados (JSON-LD) para buscadores.  |
+**[Alta — Crítica]** El CTA de reserva en la Landing Page es ignorado por todos los usuarios (Eye Tracking).  
+*Mejora:* Aumentar contraste, tamaño y posición del botón de reserva; destacarlo visualmente sobre el hero con color de alto contraste.
+
+**[Alta — Crítica]** El flujo de reserva/pago tarda una media de 78s y genera abandono en usuarios con bajo nivel digital.  
+*Mejora:* Simplificar el formulario de reserva: reducir campos visibles en la primera pantalla y dividir el proceso en pasos numerados.
+
+**[Alta — Crítica]** LCP de 28.3s en móvil; el sitio no carga a tiempo para usuarios con conexión estándar.  
+*Mejora:* Comprimir y servir imágenes en formato WebP; implementar lazy loading y caché de recursos estáticos.
+
+**[Media]** Sin estructura de encabezados (`<h1>`, `<h2>`) ni landmarks HTML5 semánticos (WAVE).  
+*Mejora:* Añadir jerarquía de encabezados y landmarks `<header>`, `<main>`, `<nav>`, `<footer>` para cumplir WCAG 2.1 AA.
+
+**[Media]** La sección de elección de salsas está al final del flujo, generando 9 clics medios y abandono parcial.  
+*Mejora:* Reposicionar la personalización de ingredientes antes del carrito; mostrar las opciones de forma más visual y accesible.
+
+**[Media]** CLS de 0.243 en escritorio provoca clics accidentales durante la carga.  
+*Mejora:* Reservar espacio explícito (height/width) en los elementos de imagen cargados de forma asíncrona.
+
+**[Baja]** Los iconos de redes sociales del footer son ignorados por la totalidad de usuarios.  
+*Mejora:* Acompañar los iconos con etiquetas de texto o integrar el bloque en una sección más visible de la página.
+
+**[Baja]** SEO de 58/100; falta de metaetiquetas descriptivas y etiquetas semánticas.  
+*Mejora:* Añadir `<title>`, `<meta description>`, `aria-label` en botones interactivos y datos estructurados (JSON-LD).
 
 ### Valoración final del equipo evaluador
 
