@@ -13,7 +13,7 @@
 | Reclutamiento de usuarios + propuesta A/B | [Datos_Usuarios.md](Datos_Usuarios.md)                                        | ✅     |
 | Cuestionario SUS                          | [Cuestionario_SUS.md](Cuestionario_SUS.md) · [Tally](https://tally.so/r/KYaJMk) | ✅     |
 | Eye Tracking (heatmaps)                   | Ver sección abajo                                                         | ✅     |
-| Usability Report                          | [Usability-Report.md](Usability-Report.md) · [PDF](Usability-Report.pdf)      | ✅     |
+| Usability Report                          | [Usability-Report.md](Usability-Report.md) · [PDF](REPORT_DIU3.GECV_doneBy_DIU2_Errores404.pdf) | ✅     |
 | Accessibility Report                      | [Acceibility-Report-template.md](Acceibility-Report-template.md)              | ✅     |
 
 ---
@@ -111,7 +111,7 @@ Los filtros de categoría y el buscador reciben atención temprana. Los producto
 
 ## 4. Usability Report
 
-📄 [Usability-Report.md](Usability-Report.md) · 📥 [Usability-Report.pdf](Usability-Report.pdf)
+📄 [Usability-Report.md](Usability-Report.md) · 📥 [REPORT\_DIU3.GECV\_doneBy\_DIU2\_Errores404.pdf](REPORT_DIU3.GECV_doneBy_DIU2_Errores404.pdf)
 
 Informe centrado en el **Caso B (Mejora de Goiko)** con hallazgos del estudio A/B, análisis SUS, Eye Tracking y auditoría de accesibilidad.
 

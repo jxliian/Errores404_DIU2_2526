@@ -672,7 +672,7 @@ El experimento de Eye Tracking se ha realizado con la herramienta **[GazeMapping
 
 El informe de usabilidad completo del Caso B (Mejora de Goiko) está disponible en:
 
-📄 **[P5/Usability-Report.md](P5/Usability-Report.md)** · 📥 **[PDF](P5/Usability-Report.pdf)**
+📄 **[P5/Usability-Report.md](P5/Usability-Report.md)** · 📥 **[PDF](P5/REPORT_DIU3.GECV_doneBy_DIU2_Errores404.pdf)**
 
 El informe recoge los hallazgos del estudio A/B, el análisis SUS multivariable, las observaciones de Eye Tracking y la auditoría de accesibilidad, con recomendaciones concretas de mejora para el diseño de Mejora de Goiko.
 
